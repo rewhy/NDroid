@@ -1,0 +1,423 @@
+262848@long eu.chainfire.cfbench.BenchJava.benchMemReadAligned()@Leu/chainfire/cfbench/BenchJava@1@2@0
+209864@void c.onProgressUpdate(java.lang.Object[])@Lc@0@0@1@9
+269240@long eu.chainfire.cfbench.MainActivity$AsyncBenchmark$4.bench()@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$4@0@2@0
+324816@void f.n()@Lf@0@0@0
+196072@void b.<init>(c, d, android.content.Context)@Lb@0@0@3@999
+255288@com.google.ads.AdSize d.k()@Ld@0@9@0
+254592@android.app.Activity d.e()@Ld@0@9@0
+269680@long eu.chainfire.cfbench.MainActivity$AsyncBenchmark$9.bench()@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$9@0@2@0
+208880@void c.a(java.lang.String, java.lang.String)@Lc@0@0@2@99
+238544@boolean com.google.ads.util.AdUtil.c(android.content.Context)@Lcom/google/ads/util/AdUtil@1@1@1@9
+219400@java.util.Map com.google.ads.AdRequest.getRequestMap(android.content.Context)@Lcom/google/ads/AdRequest@0@9@1@9
+300872@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$27(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+311280@void eu.chainfire.cfbench.MainActivity.onCreate(android.os.Bundle)@Leu/chainfire/cfbench/MainActivity@0@0@1@9
+309888@java.lang.String eu.chainfire.cfbench.MainActivity.getProp(java.lang.String)@Leu/chainfire/cfbench/MainActivity@0@9@1@9
+330256@void l.a(d, java.util.HashMap, android.webkit.WebView)@Ll@0@0@3@999
+330936@void n.a(d, java.util.HashMap, android.webkit.WebView)@Ln@0@0@3@999
+264376@void eu.chainfire.cfbench.MainActivity$1.<init>(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$1@0@0@1@9
+264376@void eu.chainfire.cfbench.MainActivity$2.<init>(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$2@0@0@1@9
+264376@void eu.chainfire.cfbench.MainActivity$3$1.<init>(eu.chainfire.cfbench.MainActivity$3)@Leu/chainfire/cfbench/MainActivity$3$1@0@0@1@9
+264376@void eu.chainfire.cfbench.MainActivity$3.<init>(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$3@0@0@1@9
+264376@void eu.chainfire.cfbench.MainActivity$4.<init>(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$4@0@0@1@9
+264376@void eu.chainfire.cfbench.MainActivity$5.<init>(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$5@0@0@1@9
+264376@void eu.chainfire.cfbench.MainActivity$LongBench.<init>(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$LongBench@0@0@1@9
+264376@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark$14.<init>(eu.chainfire.cfbench.MainActivity$AsyncBenchmark)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$14@0@0@1@9
+268672@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark$1UpdateRunnable.<init>(eu.chainfire.cfbench.MainActivity$AsyncBenchmark)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$1UpdateRunnable@0@0@1@9
+301416@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$34(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+219248@void com.google.ads.AdRequest.addTestDevice(java.lang.String)@Lcom/google/ads/AdRequest@0@0@1@9
+264480@boolean eu.chainfire.cfbench.MainActivity$1.onPreferenceClick(android.preference.Preference)@Leu/chainfire/cfbench/MainActivity$1@0@1@1@9
+257384@void d.u()@Ld@0@0@0
+253168@void d.b()@Ld@0@0@0
+260464@void eu.chainfire.cfbench.AdmobPreference.<init>(android.content.Context, android.util.AttributeSet)@Leu/chainfire/cfbench/AdmobPreference@0@0@2@99
+322192@long f.i()@Lf@1@2@0
+320192@void eu.chainfire.cfbench.ScorePreference.saveContentToDB(java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.Integer)@Leu/chainfire/cfbench/ScorePreference@0@0@4@9999
+300096@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$16(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+211816@g com.google.ads.AdActivity.getOpeningAdWebView()@Lcom/google/ads/AdActivity@0@9@0
+199624@void b.b(java.net.HttpURLConnection)@Lb@0@0@1@9
+315160@void eu.chainfire.cfbench.ResultPreference.loadValueFromDB()@Leu/chainfire/cfbench/ResultPreference@0@0@0
+231800@android.util.DisplayMetrics com.google.ads.util.AdUtil.a(android.app.Activity)@Lcom/google/ads/util/AdUtil@1@9@1@9
+299968@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$14(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+208224@void c.a()@Lc@0@0@0
+311488@void eu.chainfire.cfbench.MainActivity.onStart()@Leu/chainfire/cfbench/MainActivity@0@0@0
+236808@org.json.JSONObject com.google.ads.util.AdUtil.b(java.util.Map)@Lcom/google/ads/util/AdUtil@1@9@1@9
+300744@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$25(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+336960@void x.run()@Lx@0@0@0
+311128@boolean eu.chainfire.cfbench.MainActivity.isPaidVersion()@Leu/chainfire/cfbench/MainActivity@0@1@0
+270856@android.app.ProgressDialog eu.chainfire.cfbench.MainActivity$AsyncBenchmark.access$2(eu.chainfire.cfbench.MainActivity$AsyncBenchmark)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark@1@9@1@9
+243744@boolean com.google.ads.util.a.a(java.lang.String, int)@Lcom/google/ads/util/a@1@1@2@91
+212544@void com.google.ads.AdActivity.onCreate(android.os.Bundle)@Lcom/google/ads/AdActivity@0@0@1@9
+229632@void com.google.ads.InstallReceiver.onReceive(android.content.Context, android.content.Intent)@Lcom/google/ads/InstallReceiver@0@0@2@99
+255352@int d.m()@Ld@0@1@0
+230488@boolean com.google.ads.InterstitialAd.isReady()@Lcom/google/ads/InterstitialAd@0@1@0
+254904@java.lang.String d.h()@Ld@0@9@0
+244384@void com.google.ads.util.a.c(java.lang.String, java.lang.Throwable)@Lcom/google/ads/util/a@1@0@2@99
+311976@android.preference.PreferenceCategory eu.chainfire.cfbench.Pref.Category(android.content.Context, android.preference.PreferenceScreen, java.lang.String)@Leu/chainfire/cfbench/Pref@1@9@3@999
+265288@boolean eu.chainfire.cfbench.MainActivity$3.onPreferenceClick(android.preference.Preference)@Leu/chainfire/cfbench/MainActivity$3@0@1@1@9
+301288@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$32(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+300352@void eu.chainfire.cfbench.MainActivity.access$2(eu.chainfire.cfbench.MainActivity, java.lang.String)@Leu/chainfire/cfbench/MainActivity@1@0@2@99
+317032@void eu.chainfire.cfbench.ScorePreference$SavedState.<init>(android.os.Parcel)@Leu/chainfire/cfbench/ScorePreference$SavedState@0@0@1@9
+211104@void com.google.ads.AdActivity.launchAdActivity(d, e)@Lcom/google/ads/AdActivity@1@0@2@99
+208656@void c.a(java.lang.String)@Lc@0@0@1@9
+326848@void h.b()@Lh@0@0@0
+264912@void eu.chainfire.cfbench.MainActivity$3$2.<init>(eu.chainfire.cfbench.MainActivity$3, boolean[])@Leu/chainfire/cfbench/MainActivity$3$2@0@0@2@99
+298424@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark.onPreExecute()@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark@0@0@0
+235232@void com.google.ads.util.AdUtil.a(boolean)@Lcom/google/ads/util/AdUtil@1@0@1@1
+316712@void eu.chainfire.cfbench.ResultPreference.setValue(java.lang.String)@Leu/chainfire/cfbench/ResultPreference@0@0@1@9
+321896@void eu.chainfire.cfbench.ScorePreference.update()@Leu/chainfire/cfbench/ScorePreference@0@0@0
+323048@void f.c()@Lf@0@0@0
+301064@java.util.List eu.chainfire.cfbench.MainActivity.access$3(eu.chainfire.cfbench.MainActivity, java.lang.String[])@Leu/chainfire/cfbench/MainActivity@1@9@2@99
+325448@com.google.ads.AdActivity g.b()@Lg@0@9@0
+268040@long eu.chainfire.cfbench.MainActivity$AsyncBenchmark$11.bench()@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$11@0@2@0
+256160@void d.q()@Ld@0@0@0
+230680@void com.google.ads.InterstitialAd.setAdListener(com.google.ads.AdListener)@Lcom/google/ads/InterstitialAd@0@0@1@9
+198496@void b.a(java.net.HttpURLConnection)@Lb@0@0@1@9
+324640@boolean f.k()@Lf@0@1@0
+221032@void com.google.ads.AdRequest.setTesting(boolean)@Lcom/google/ads/AdRequest@0@0@1@1
+268216@long eu.chainfire.cfbench.MainActivity$AsyncBenchmark$13.bench()@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$13@0@2@0
+330456@void m.a(d, java.util.HashMap, android.webkit.WebView)@Lm@0@0@3@999
+262312@long eu.chainfire.cfbench.BenchJava.benchMSFLOPS()@Leu/chainfire/cfbench/BenchJava@1@2@0
+317984@void eu.chainfire.cfbench.ScorePreference.loadValueFromDB()@Leu/chainfire/cfbench/ScorePreference@0@0@0
+196208@java.lang.Void b.a(java.lang.String[])@Lb@0@9@1@9
+248112@java.lang.String com.google.ads.util.b.a(byte[])@Lcom/google/ads/util/b@1@9@1@9
+226048@boolean com.google.ads.AdView.isRefreshing()@Lcom/google/ads/AdView@0@1@0
+268304@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark$14.onClick(android.content.DialogInterface, int)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$14@0@0@2@91
+230336@void com.google.ads.InterstitialAd.<init>(android.app.Activity, java.lang.String)@Lcom/google/ads/InterstitialAd@0@0@2@99
+225376@void com.google.ads.AdView.a(android.content.Context, java.lang.String, com.google.ads.AdSize)@Lcom/google/ads/AdView@0@0@3@999
+260592@void eu.chainfire.cfbench.AdmobPreference.<init>(android.content.Context, android.util.AttributeSet, int)@Leu/chainfire/cfbench/AdmobPreference@0@0@3@991
+322808@void f.b(java.lang.String)@Lf@0@0@1@9
+244224@void com.google.ads.util.a.c(java.lang.String)@Lcom/google/ads/util/a@1@0@1@9
+251480@void d.a(com.google.ads.AdListener)@Ld@0@0@1@9
+320840@void eu.chainfire.cfbench.ScorePreference.setDevice(java.lang.String)@Leu/chainfire/cfbench/ScorePreference@0@0@1@9
+314592@void eu.chainfire.cfbench.ResultPreference$SavedState.writeToParcel(android.os.Parcel, int)@Leu/chainfire/cfbench/ResultPreference$SavedState@0@0@2@91
+320720@void eu.chainfire.cfbench.ScorePreference.setContent(java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.Integer)@Leu/chainfire/cfbench/ScorePreference@0@0@4@9999
+301736@void eu.chainfire.cfbench.MainActivity.access$4(eu.chainfire.cfbench.MainActivity, java.lang.Runnable)@Leu/chainfire/cfbench/MainActivity@1@0@2@99
+314336@void eu.chainfire.cfbench.ResultPreference$SavedState.<init>(android.os.Parcel)@Leu/chainfire/cfbench/ResultPreference$SavedState@0@0@1@9
+302080@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$9(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+314168@eu.chainfire.cfbench.ResultPreference$SavedState[] eu.chainfire.cfbench.ResultPreference$SavedState$1.newArray(int)@Leu/chainfire/cfbench/ResultPreference$SavedState$1@0@9@1@1
+328496@void j.a(d, java.util.HashMap, android.webkit.WebView)@Lj@0@0@3@999
+221312@java.lang.String com.google.ads.AdSize.toString()@Lcom/google/ads/AdSize@0@9@0
+221312@java.lang.String e.b()@Le@0@9@0
+221312@java.lang.String f.p()@Lf@0@9@0
+271096@java.lang.String eu.chainfire.cfbench.MainActivity$AsyncBenchmark.scoreString(java.lang.String, int, int, int)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark@0@9@4@9111
+268584@long eu.chainfire.cfbench.MainActivity$AsyncBenchmark$1.bench()@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$1@0@2@0
+261720@long eu.chainfire.cfbench.BenchJava.benchMIPS()@Leu/chainfire/cfbench/BenchJava@1@2@0
+270920@eu.chainfire.cfbench.MainActivity eu.chainfire.cfbench.MainActivity$AsyncBenchmark.access$4(eu.chainfire.cfbench.MainActivity$AsyncBenchmark)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark@1@9@1@9
+212232@android.widget.VideoView com.google.ads.AdActivity.getVideoView()@Lcom/google/ads/AdActivity@0@9@0
+313440@android.preference.ListPreference eu.chainfire.cfbench.Pref.List(android.content.Context, android.preference.PreferenceCategory, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Object, java.lang.CharSequence[], java.lang.CharSequence[], boolean)@Leu/chainfire/cfbench/Pref@1@9@10@9999999991
+250672@void d.a(float)@Ld@0@0@1@1
+265224@eu.chainfire.cfbench.MainActivity eu.chainfire.cfbench.MainActivity$3.access$0(eu.chainfire.cfbench.MainActivity$3)@Leu/chainfire/cfbench/MainActivity$3@1@9@1@9
+301224@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$31(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+300288@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$19(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+231400@void com.google.ads.util.AdUtil$a.<init>(java.lang.String, int)@Lcom/google/ads/util/AdUtil$a@0@0@2@91
+235624@boolean com.google.ads.util.AdUtil.a(android.net.Uri)@Lcom/google/ads/util/AdUtil@1@1@1@9
+240464@com.google.ads.util.AdUtil$a com.google.ads.util.AdUtil.f(android.content.Context)@Lcom/google/ads/util/AdUtil@1@9@1@9
+228176@void com.google.ads.InstallReceiver.forwardIntent(android.content.Context, android.content.Intent)@Lcom/google/ads/InstallReceiver@0@0@2@99
+324928@void f.o()@Lf@0@0@0
+220744@void com.google.ads.AdRequest.setBirthday(java.lang.String)@Lcom/google/ads/AdRequest@0@0@1@9
+298712@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark.updateMessage(java.lang.String)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark@0@0@1@9
+314744@void eu.chainfire.cfbench.ResultPreference.<init>(android.content.Context, android.content.SharedPreferences)@Leu/chainfire/cfbench/ResultPreference@0@0@2@99
+312128@android.preference.CheckBoxPreference eu.chainfire.cfbench.Pref.Check(android.content.Context, android.preference.PreferenceCategory, java.lang.String, java.lang.String, java.lang.String, java.lang.Object)@Leu/chainfire/cfbench/Pref@1@9@6@999999
+210096@void com.google.ads.AdActivity.<init>()@Lcom/google/ads/AdActivity@0@0@0
+260728@void eu.chainfire.cfbench.AdmobPreference.onBindView(android.view.View)@Leu/chainfire/cfbench/AdmobPreference@0@0@1@9
+218472@java.lang.String com.google.ads.AdRequest$ErrorCode.toString()@Lcom/google/ads/AdRequest$ErrorCode@0@9@0
+218472@java.lang.String com.google.ads.AdRequest$Gender.toString()@Lcom/google/ads/AdRequest$Gender@0@9@0
+218472@int com.google.ads.AdSize.getHeight()@Lcom/google/ads/AdSize@0@1@0
+263696@long eu.chainfire.cfbench.BenchJava.getTickCount()@Leu/chainfire/cfbench/BenchJava@1@2@0
+220984@void com.google.ads.AdRequest.setTestDevices(java.util.Set)@Lcom/google/ads/AdRequest@0@0@1@9
+301000@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$29(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+333616@void t.a(d, java.util.HashMap, android.webkit.WebView)@Lt@0@0@3@999
+218808@void com.google.ads.AdRequest.<init>()@Lcom/google/ads/AdRequest@0@0@0
+301952@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$7(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+259400@void d.y()@Ld@0@0@0
+334056@void v.a(d, java.util.HashMap, android.webkit.WebView)@Lv@0@0@3@999
+210192@void com.google.ads.AdActivity.a(g, boolean, int)@Lcom/google/ads/AdActivity@0@0@3@911
+269152@long eu.chainfire.cfbench.MainActivity$AsyncBenchmark$3.bench()@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$3@0@2@0
+312816@android.preference.EditTextPreference eu.chainfire.cfbench.Pref.Edit(android.content.Context, android.preference.PreferenceCategory, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Object, boolean)@Leu/chainfire/cfbench/Pref@1@9@8@99999991
+301480@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$35(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+252344@void d.a(com.google.ads.AdRequest)@Ld@0@0@1@9
+255808@boolean d.o()@Ld@0@1@0
+224688@void com.google.ads.AdView.a(android.content.Context, java.lang.String, int, com.google.ads.AdSize)@Lcom/google/ads/AdView@0@0@4@9919
+326784@void h.a()@Lh@0@0@0
+309744@android.content.pm.PackageInfo eu.chainfire.cfbench.MainActivity.getPackageInfo(java.lang.String, int)@Leu/chainfire/cfbench/MainActivity@0@9@2@91
+302016@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$8(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+225672@boolean com.google.ads.AdView.a(android.content.Context, com.google.ads.AdSize)@Lcom/google/ads/AdView@0@1@2@99
+269592@long eu.chainfire.cfbench.MainActivity$AsyncBenchmark$8.bench()@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$8@0@2@0
+312968@android.preference.EditTextPreference eu.chainfire.cfbench.Pref.Edit(android.content.Context, android.preference.PreferenceCategory, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Object, boolean, java.lang.Integer)@Leu/chainfire/cfbench/Pref@1@9@9@999999919
+244864@void com.google.ads.util.b$b.<init>()@Lcom/google/ads/util/b$b@0@0@0
+221160@void com.google.ads.AdSize.<init>(int, int, java.lang.String)@Lcom/google/ads/AdSize@0@0@3@119
+240960@java.lang.String com.google.ads.util.AdUtil.g(android.content.Context)@Lcom/google/ads/util/AdUtil@1@9@1@9
+317712@java.lang.String eu.chainfire.cfbench.ScorePreference.dbFieldName(java.lang.String)@Leu/chainfire/cfbench/ScorePreference@0@9@1@9
+260024@void e.<init>(java.lang.String, java.util.HashMap)@Le@0@0@2@99
+195912@boolean a.c(android.net.Uri)@La@1@1@1@9
+192624@void a.a(android.webkit.WebView)@La@1@0@1@9
+270984@int eu.chainfire.cfbench.MainActivity$AsyncBenchmark.scorePercentage(int, int)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark@0@1@2@11
+290232@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark.go(android.content.Context, android.os.Handler, boolean[])@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark@0@0@3@999
+238200@boolean com.google.ads.util.AdUtil.b(android.content.Context)@Lcom/google/ads/util/AdUtil@1@1@1@9
+225840@void com.google.ads.AdView.destroy()@Lcom/google/ads/AdView@0@0@0
+232312@java.lang.String com.google.ads.util.AdUtil.a(android.location.Location)@Lcom/google/ads/util/AdUtil@1@9@1@9
+211008@void com.google.ads.AdActivity.a(java.lang.String)@Lcom/google/ads/AdActivity@0@0@1@9
+244544@void com.google.ads.util.a.d(java.lang.String)@Lcom/google/ads/util/a@1@0@1@9
+316144@void eu.chainfire.cfbench.ResultPreference.saveValueToDB(java.lang.String)@Leu/chainfire/cfbench/ResultPreference@0@0@1@9
+271544@java.lang.String eu.chainfire.cfbench.MainActivity$AsyncBenchmark.unknownProp(java.lang.String)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark@0@9@1@9
+324112@java.lang.String f.g()@Lf@0@9@0
+218944@void com.google.ads.AdRequest.addExtra(java.lang.String, java.lang.Object)@Lcom/google/ads/AdRequest@0@0@2@99
+235848@java.lang.String com.google.ads.util.AdUtil.b(java.lang.String)@Lcom/google/ads/util/AdUtil@1@9@1@9
+299904@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$13(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+267264@void eu.chainfire.cfbench.MainActivity$LongBench.run()@Leu/chainfire/cfbench/MainActivity$LongBench@0@0@0
+263304@long eu.chainfire.cfbench.BenchJava.benchMemWriteAligned()@Leu/chainfire/cfbench/BenchJava@1@2@0
+243904@void com.google.ads.util.a.b(java.lang.String)@Lcom/google/ads/util/a@1@0@1@9
+257960@boolean d.v()@Ld@0@1@0
+241544@java.lang.String com.google.ads.util.AdUtil.i(android.content.Context)@Lcom/google/ads/util/AdUtil@1@9@1@9
+301888@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$6(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+310776@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.RetPref(android.content.Context, android.preference.PreferenceCategory, java.lang.String, java.lang.String)@Leu/chainfire/cfbench/MainActivity@0@9@4@9999
+322400@void f.a(java.lang.String)@Lf@0@0@1@9
+220792@void com.google.ads.AdRequest.setExtras(java.util.Map)@Lcom/google/ads/AdRequest@0@0@1@9
+220840@void com.google.ads.AdRequest.setGender(com.google.ads.AdRequest$Gender)@Lcom/google/ads/AdRequest@0@0@1@9
+315128@java.lang.String eu.chainfire.cfbench.ResultPreference.getValue()@Leu/chainfire/cfbench/ResultPreference@0@9@0
+315632@void eu.chainfire.cfbench.ResultPreference.onRestoreInstanceState(android.os.Parcelable)@Leu/chainfire/cfbench/ResultPreference@0@0@1@9
+220568@boolean com.google.ads.AdRequest.isTestDevice(android.content.Context)@Lcom/google/ads/AdRequest@0@1@1@9
+200000@void c$a.<init>(c, java.lang.String)@Lc$a@0@0@2@99
+200000@void c$b.<init>(c, java.lang.String)@Lc$b@0@0@2@99
+243424@void com.google.ads.util.a.a(java.lang.String)@Lcom/google/ads/util/a@1@0@1@9
+310944@eu.chainfire.cfbench.ScorePreference eu.chainfire.cfbench.MainActivity.ScorePref(android.content.Context, android.preference.PreferenceCategory, int, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.Integer)@Leu/chainfire/cfbench/MainActivity@0@9@7@9919999
+254936@g d.i()@Ld@0@9@0
+226472@void com.google.ads.AdView.stopLoading()@Lcom/google/ads/AdView@0@0@0
+311888@void eu.chainfire.cfbench.MainActivity.onStop()@Leu/chainfire/cfbench/MainActivity@0@0@0
+301544@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$36(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+310368@void eu.chainfire.cfbench.MainActivity.performBench(java.lang.Runnable)@Leu/chainfire/cfbench/MainActivity@0@0@1@9
+231040@void com.google.ads.InterstitialAd.stopLoading()@Lcom/google/ads/InterstitialAd@0@0@0
+209264@void c.onCancelled()@Lc@0@0@0
+209120@java.lang.Object c.doInBackground(java.lang.Object[])@Lc@0@9@1@9
+260128@android.os.Bundle e.a()@Le@0@9@0
+269768@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark.<init>(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark@0@0@1@9
+233112@java.lang.String com.google.ads.util.AdUtil.a(java.lang.String)@Lcom/google/ads/util/AdUtil@1@9@1@9
+217232@void com.google.ads.AdActivity.onPrepared(android.media.MediaPlayer)@Lcom/google/ads/AdActivity@0@0@1@9
+226648@java.lang.String com.google.ads.InstallReceiver.a(java.lang.String, java.lang.String, java.lang.String)@Lcom/google/ads/InstallReceiver@1@9@3@999
+316232@void eu.chainfire.cfbench.ResultPreference.saveValueToDB(java.lang.String, boolean)@Leu/chainfire/cfbench/ResultPreference@0@0@2@91
+241256@void com.google.ads.util.AdUtil.h(android.content.Context)@Lcom/google/ads/util/AdUtil@1@0@1@9
+322640@void f.b()@Lf@0@0@0
+332504@void q.a(d, java.util.HashMap, android.webkit.WebView)@Lq@0@0@3@999
+243584@void com.google.ads.util.a.a(java.lang.String, java.lang.Throwable)@Lcom/google/ads/util/a@1@0@2@99
+0@void i.a(d, java.util.HashMap, android.webkit.WebView)@Li@0@0@3@999
+226560@void com.google.ads.InstallReceiver.<init>()@Lcom/google/ads/InstallReceiver@0@0@0
+226560@void com.google.ads.util.AdUtil$UserActivityReceiver.<init>()@Lcom/google/ads/util/AdUtil$UserActivityReceiver@0@0@0
+231128@void com.google.ads.util.AdUtil$UserActivityReceiver.onReceive(android.content.Context, android.content.Intent)@Lcom/google/ads/util/AdUtil$UserActivityReceiver@0@0@2@99
+312664@android.preference.EditTextPreference eu.chainfire.cfbench.Pref.Edit(android.content.Context, android.preference.PreferenceCategory, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Object, java.lang.Integer)@Leu/chainfire/cfbench/Pref@1@9@8@99999999
+218504@com.google.ads.AdRequest$Gender com.google.ads.AdRequest$Gender.valueOf(java.lang.String)@Lcom/google/ads/AdRequest$Gender@1@9@1@9
+238136@boolean com.google.ads.util.AdUtil.b()@Lcom/google/ads/util/AdUtil@1@1@0
+245056@boolean com.google.ads.util.b$b.a(byte[], int)@Lcom/google/ads/util/b$b@0@1@2@91
+314248@java.lang.Object[] eu.chainfire.cfbench.ResultPreference$SavedState$1.newArray(int)@Leu/chainfire/cfbench/ResultPreference$SavedState$1@0@9@1@1
+314248@java.lang.Object[] eu.chainfire.cfbench.ScorePreference$SavedState$1.newArray(int)@Leu/chainfire/cfbench/ScorePreference$SavedState$1@0@9@1@1
+300424@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$20(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+319944@android.os.Parcelable eu.chainfire.cfbench.ScorePreference.onSaveInstanceState()@Leu/chainfire/cfbench/ScorePreference@0@9@0
+331296@void o.a(d, java.util.HashMap, android.webkit.WebView)@Lo@0@0@3@999
+299840@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$12(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+326912@void h.onPageFinished(android.webkit.WebView, java.lang.String)@Lh@0@0@2@99
+259640@void e.<init>(android.os.Bundle)@Le@0@0@1@9
+255984@boolean d.p()@Ld@0@1@0
+244704@void com.google.ads.util.a.e(java.lang.String)@Lcom/google/ads/util/a@1@0@1@9
+270760@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark.<init>(eu.chainfire.cfbench.MainActivity, eu.chainfire.cfbench.MainActivity$AsyncBenchmark)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark@0@0@2@99
+230584@void com.google.ads.InterstitialAd.loadAd(com.google.ads.AdRequest)@Lcom/google/ads/InterstitialAd@0@0@1@9
+317240@void eu.chainfire.cfbench.ScorePreference$SavedState.writeToParcel(android.os.Parcel, int)@Leu/chainfire/cfbench/ScorePreference$SavedState@0@0@2@91
+301824@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$5(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+300488@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$21(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+261160@long eu.chainfire.cfbench.BenchJava.benchMDFLOPS()@Leu/chainfire/cfbench/BenchJava@1@2@0
+209432@void c.onPostExecute(java.lang.Object)@Lc@0@0@1@9
+234944@void com.google.ads.util.AdUtil.a(android.webkit.WebView)@Lcom/google/ads/util/AdUtil@1@0@1@9
+200112@void c.<init>(d)@Lc@0@0@1@9
+192800@void a.a(android.webkit.WebView, java.lang.String)@La@1@0@2@99
+315976@android.os.Parcelable eu.chainfire.cfbench.ResultPreference.onSaveInstanceState()@Leu/chainfire/cfbench/ResultPreference@0@9@0
+324784@boolean f.m()@Lf@0@1@0
+312504@android.preference.EditTextPreference eu.chainfire.cfbench.Pref.Edit(android.content.Context, android.preference.PreferenceCategory, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Object)@Leu/chainfire/cfbench/Pref@1@9@7@9999999
+249824@boolean d.z()@Ld@0@1@0
+257128@void d.t()@Ld@0@0@0
+248720@void d.<init>(android.app.Activity, com.google.ads.Ad, com.google.ads.AdSize, java.lang.String)@Ld@0@0@4@9999
+300552@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$22(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+329272@void k.a(d, java.util.HashMap, android.webkit.WebView)@Lk@0@0@3@999
+221064@void com.google.ads.AdSize.<init>(int, int)@Lcom/google/ads/AdSize@0@0@2@11
+269328@long eu.chainfire.cfbench.MainActivity$AsyncBenchmark$5.bench()@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$5@0@2@0
+216168@void com.google.ads.AdActivity.onDestroy()@Lcom/google/ads/AdActivity@0@0@0
+239096@java.lang.String com.google.ads.util.AdUtil.d(android.content.Context)@Lcom/google/ads/util/AdUtil@1@9@1@9
+269504@long eu.chainfire.cfbench.MainActivity$AsyncBenchmark$7.bench()@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$7@0@2@0
+253416@void d.b(java.lang.String)@Ld@0@0@1@9
+320984@void eu.chainfire.cfbench.ScorePreference.setScores(java.lang.Integer, java.lang.Integer, java.lang.Integer)@Leu/chainfire/cfbench/ScorePreference@0@0@3@999
+325312@void g.a()@Lg@0@0@0
+300224@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$18(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+336816@void x.<init>(d)@Lx@0@0@1@9
+217616@void com.google.ads.AdActivity.showVideo(android.widget.VideoView)@Lcom/google/ads/AdActivity@0@0@1@9
+232008@java.lang.String com.google.ads.util.AdUtil.a(android.content.Context)@Lcom/google/ads/util/AdUtil@1@9@1@9
+323336@long f.e()@Lf@0@2@0
+195320@boolean a.a(android.net.Uri)@La@1@1@1@9
+301160@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$30(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+218320@com.google.ads.AdRequest$ErrorCode[] com.google.ads.AdRequest$ErrorCode.values()@Lcom/google/ads/AdRequest$ErrorCode@1@9@0
+252968@void d.a(java.lang.String)@Ld@0@0@1@9
+193736@void a.a(android.webkit.WebView, java.util.Map)@La@1@0@2@99
+325480@void g.onMeasure(int, int)@Lg@0@0@2@11
+324672@void f.l()@Lf@0@0@0
+233560@java.lang.String com.google.ads.util.AdUtil.a(java.util.Map)@Lcom/google/ads/util/AdUtil@1@9@1@9
+236352@java.util.HashMap com.google.ads.util.AdUtil.b(android.net.Uri)@Lcom/google/ads/util/AdUtil@1@9@1@9
+299776@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$11(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+299616@java.lang.String eu.chainfire.cfbench.MainActivity.access$1(eu.chainfire.cfbench.MainActivity, java.lang.String)@Leu/chainfire/cfbench/MainActivity@1@9@2@99
+231648@com.google.ads.util.AdUtil$a[] com.google.ads.util.AdUtil$a.values()@Lcom/google/ads/util/AdUtil$a@1@9@0
+314080@java.lang.Object eu.chainfire.cfbench.ResultPreference$SavedState$1.createFromParcel(android.os.Parcel)@Leu/chainfire/cfbench/ResultPreference$SavedState$1@0@9@1@9
+314080@java.lang.Object eu.chainfire.cfbench.ScorePreference$SavedState$1.createFromParcel(android.os.Parcel)@Leu/chainfire/cfbench/ScorePreference$SavedState$1@0@9@1@9
+323512@java.lang.String f.f()@Lf@0@9@0
+290000@java.lang.Object eu.chainfire.cfbench.MainActivity$AsyncBenchmark.doInBackground(java.lang.Object[])@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark@0@9@1@9
+258576@void d.w()@Ld@0@0@0
+244064@void com.google.ads.util.a.b(java.lang.String, java.lang.Throwable)@Lcom/google/ads/util/a@1@0@2@99
+333064@void r.a(d, java.util.HashMap, android.webkit.WebView)@Lr@0@0@3@999
+331896@void p.a(d, java.util.HashMap, android.webkit.WebView)@Lp@0@0@3@999
+255320@f d.l()@Ld@0@9@0
+300616@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$23(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+265032@void eu.chainfire.cfbench.MainActivity$3$2.onClick(android.content.DialogInterface, int)@Leu/chainfire/cfbench/MainActivity$3$2@0@0@2@91
+290136@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark.go(android.content.Context, android.os.Handler)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark@0@0@2@99
+212264@void com.google.ads.AdActivity.onClick(android.view.View)@Lcom/google/ads/AdActivity@0@0@1@9
+259920@void e.<init>(java.lang.String)@Le@0@0@1@9
+300160@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$17(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+218048@void com.google.ads.AdRequest$ErrorCode.<init>(java.lang.String, int, java.lang.String)@Lcom/google/ads/AdRequest$ErrorCode@0@0@3@919
+218048@void com.google.ads.AdRequest$Gender.<init>(java.lang.String, int, java.lang.String)@Lcom/google/ads/AdRequest$Gender@0@0@3@919
+298856@void eu.chainfire.cfbench.MainActivity.<init>()@Leu/chainfire/cfbench/MainActivity@0@0@0
+321976@void f.<init>()@Lf@0@0@0
+192536@void a.<init>()@La@0@0@0
+192536@void com.google.ads.util.AdUtil.<init>()@Lcom/google/ads/util/AdUtil@0@0@0
+192536@void com.google.ads.util.a.<init>()@Lcom/google/ads/util/a@0@0@0
+192536@void com.google.ads.util.b$a.<init>()@Lcom/google/ads/util/b$a@0@0@0
+192536@void com.google.ads.util.b.<init>()@Lcom/google/ads/util/b@0@0@0
+192536@void eu.chainfire.cfbench.BenchJava.<init>()@Leu/chainfire/cfbench/BenchJava@0@0@0
+192536@void eu.chainfire.cfbench.BenchNative.<init>()@Leu/chainfire/cfbench/BenchNative@0@0@0
+192536@void eu.chainfire.cfbench.BuildConfig.<init>()@Leu/chainfire/cfbench/BuildConfig@0@0@0
+192536@void eu.chainfire.cfbench.Pref.<init>()@Leu/chainfire/cfbench/Pref@0@0@0
+192536@void eu.chainfire.cfbench.R$attr.<init>()@Leu/chainfire/cfbench/R$attr@0@0@0
+192536@void eu.chainfire.cfbench.R$drawable.<init>()@Leu/chainfire/cfbench/R$drawable@0@0@0
+192536@void eu.chainfire.cfbench.R$id.<init>()@Leu/chainfire/cfbench/R$id@0@0@0
+192536@void eu.chainfire.cfbench.R$layout.<init>()@Leu/chainfire/cfbench/R$layout@0@0@0
+192536@void eu.chainfire.cfbench.R$string.<init>()@Leu/chainfire/cfbench/R$string@0@0@0
+192536@void eu.chainfire.cfbench.R$style.<init>()@Leu/chainfire/cfbench/R$style@0@0@0
+192536@void eu.chainfire.cfbench.R.<init>()@Leu/chainfire/cfbench/R@0@0@0
+192536@void eu.chainfire.cfbench.ResultPreference$SavedState$1.<init>()@Leu/chainfire/cfbench/ResultPreference$SavedState$1@0@0@0
+192536@void eu.chainfire.cfbench.ScorePreference$SavedState$1.<init>()@Leu/chainfire/cfbench/ScorePreference$SavedState$1@0@0@0
+192536@void j.<init>()@Lj@0@0@0
+192536@void k.<init>()@Lk@0@0@0
+192536@void l.<init>()@Ll@0@0@0
+192536@void m.<init>()@Lm@0@0@0
+192536@void n.<init>()@Ln@0@0@0
+192536@void o.<init>()@Lo@0@0@0
+192536@void p.<init>()@Lp@0@0@0
+192536@void q.<init>()@Lq@0@0@0
+192536@void r.<init>()@Lr@0@0@0
+192536@void s.<init>()@Ls@0@0@0
+192536@void t.<init>()@Lt@0@0@0
+192536@void u.<init>()@Lu@0@0@0
+192536@void v.<init>()@Lv@0@0@0
+315304@void eu.chainfire.cfbench.ResultPreference.onBindView(android.view.View)@Leu/chainfire/cfbench/ResultPreference@0@0@1@9
+271688@java.lang.Integer eu.chainfire.cfbench.MainActivity$AsyncBenchmark.doInBackground(java.lang.Integer[])@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark@0@9@1@9
+264880@void eu.chainfire.cfbench.MainActivity$3$1.onClick(android.content.DialogInterface, int, boolean)@Leu/chainfire/cfbench/MainActivity$3$1@0@0@3@911
+264880@void eu.chainfire.cfbench.MainActivity.log(java.lang.String)@Leu/chainfire/cfbench/MainActivity@0@0@1@9
+264880@void u.a(d, java.util.HashMap, android.webkit.WebView)@Lu@0@0@3@999
+235296@boolean com.google.ads.util.AdUtil.a()@Lcom/google/ads/util/AdUtil@1@1@0
+266696@boolean eu.chainfire.cfbench.MainActivity$4.onPreferenceClick(android.preference.Preference)@Leu/chainfire/cfbench/MainActivity$4@0@1@1@9
+253616@void d.c()@Ld@0@0@0
+313280@android.preference.ListPreference eu.chainfire.cfbench.Pref.List(android.content.Context, android.preference.PreferenceCategory, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Object, java.lang.CharSequence[], java.lang.CharSequence[])@Leu/chainfire/cfbench/Pref@1@9@9@999999999
+250880@void d.a(int)@Ld@0@0@1@1
+251056@void d.a(long)@Ld@0@0@1@2
+302144@android.preference.PreferenceScreen eu.chainfire.cfbench.MainActivity.createPreferenceHierarchy()@Leu/chainfire/cfbench/MainActivity@0@9@0
+325104@void g.<init>(android.content.Context, com.google.ads.AdSize)@Lg@0@0@2@99
+324608@java.lang.String f.j()@Lf@0@9@0
+230776@void com.google.ads.InterstitialAd.show()@Lcom/google/ads/InterstitialAd@0@0@0
+269416@long eu.chainfire.cfbench.MainActivity$AsyncBenchmark$6.bench()@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$6@0@2@0
+231496@com.google.ads.util.AdUtil$a com.google.ads.util.AdUtil$a.valueOf(java.lang.String)@Lcom/google/ads/util/AdUtil$a@1@9@1@9
+204504@java.lang.String c.a(com.google.ads.AdRequest, android.app.Activity)@Lc@0@9@2@99
+299552@android.content.Context eu.chainfire.cfbench.MainActivity.access$0(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+313976@eu.chainfire.cfbench.ResultPreference$SavedState eu.chainfire.cfbench.ResultPreference$SavedState$1.createFromParcel(android.os.Parcel)@Leu/chainfire/cfbench/ResultPreference$SavedState$1@0@9@1@9
+301672@android.os.Handler eu.chainfire.cfbench.MainActivity.access$38(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+219096@void com.google.ads.AdRequest.addKeyword(java.lang.String)@Lcom/google/ads/AdRequest@0@0@1@9
+225928@boolean com.google.ads.AdView.isReady()@Lcom/google/ads/AdView@0@1@0
+316576@void eu.chainfire.cfbench.ResultPreference.setName(java.lang.String)@Leu/chainfire/cfbench/ResultPreference@0@0@1@9
+226144@void com.google.ads.AdView.loadAd(com.google.ads.AdRequest)@Lcom/google/ads/AdView@0@0@1@9
+325400@void g.a(com.google.ads.AdActivity)@Lg@0@0@1@9
+290824@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark.onPostExecute(java.lang.Integer)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark@0@0@1@9
+322256@void f.a()@Lf@0@0@0
+221280@int com.google.ads.AdSize.getWidth()@Lcom/google/ads/AdSize@0@1@0
+221280@com.google.ads.Ad d.f()@Ld@0@9@0
+221280@java.util.HashMap e.c()@Le@0@9@0
+217392@void com.google.ads.AdActivity.onWindowFocusChanged(boolean)@Lcom/google/ads/AdActivity@0@0@1@1
+193032@void a.a(android.webkit.WebView, java.lang.String, java.lang.String)@La@1@0@3@999
+316848@eu.chainfire.cfbench.ScorePreference$SavedState eu.chainfire.cfbench.ScorePreference$SavedState$1.createFromParcel(android.os.Parcel)@Leu/chainfire/cfbench/ScorePreference$SavedState$1@0@9@1@9
+300680@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$24(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+315096@java.lang.String eu.chainfire.cfbench.ResultPreference.getName()@Leu/chainfire/cfbench/ResultPreference@0@9@0
+259224@void d.x()@Ld@0@0@0
+220888@void com.google.ads.AdRequest.setKeywords(java.util.Set)@Lcom/google/ads/AdRequest@0@0@1@9
+323176@void f.d()@Lf@0@0@0
+221344@void com.google.ads.AdView.<init>(android.app.Activity, com.google.ads.AdSize, java.lang.String)@Lcom/google/ads/AdView@0@0@3@999
+301608@eu.chainfire.cfbench.ScorePreference[] eu.chainfire.cfbench.MainActivity.access$37(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+313752@android.preference.Preference eu.chainfire.cfbench.Pref.Preference(android.content.Context, android.preference.PreferenceCategory, java.lang.String, java.lang.String, boolean, android.preference.Preference$OnPreferenceClickListener)@Leu/chainfire/cfbench/Pref@1@9@6@999919
+220936@void com.google.ads.AdRequest.setLocation(android.location.Location)@Lcom/google/ads/AdRequest@0@0@1@9
+255528@long d.n()@Ld@0@2@0
+216848@boolean com.google.ads.AdActivity.onError(android.media.MediaPlayer, int, int)@Lcom/google/ads/AdActivity@0@1@3@911
+300936@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$28(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+266920@boolean eu.chainfire.cfbench.MainActivity$5.onPreferenceClick(android.preference.Preference)@Leu/chainfire/cfbench/MainActivity$5@0@1@1@9
+308776@java.util.List eu.chainfire.cfbench.MainActivity.executeSH(java.lang.String[])@Leu/chainfire/cfbench/MainActivity@0@9@1@9
+212344@void com.google.ads.AdActivity.onCompletion(android.media.MediaPlayer)@Lcom/google/ads/AdActivity@0@0@1@9
+268128@long eu.chainfire.cfbench.MainActivity$AsyncBenchmark$12.bench()@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$12@0@2@0
+218656@com.google.ads.AdRequest$Gender[] com.google.ads.AdRequest$Gender.values()@Lcom/google/ads/AdRequest$Gender@1@9@0
+256848@void d.s()@Ld@0@0@0
+263936@void eu.chainfire.cfbench.BenchNative.loadLibrary()@Leu/chainfire/cfbench/BenchNative@1@0@0
+316952@eu.chainfire.cfbench.ScorePreference$SavedState[] eu.chainfire.cfbench.ScorePreference$SavedState$1.newArray(int)@Leu/chainfire/cfbench/ScorePreference$SavedState$1@0@9@1@1
+324528@long f.h()@Lf@0@2@0
+195496@void a.b(android.webkit.WebView)@La@1@0@1@9
+298288@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark.onPostExecute(java.lang.Object)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark@0@0@1@9
+193912@void a.a(d, java.util.Map, android.net.Uri, android.webkit.WebView)@La@1@0@4@9999
+314920@java.lang.String eu.chainfire.cfbench.ResultPreference.dbFieldName()@Leu/chainfire/cfbench/ResultPreference@0@9@0
+326648@void h.<init>(d, java.util.Map, boolean, boolean)@Lh@0@0@4@9911
+256568@void d.r()@Ld@0@0@0
+218168@com.google.ads.AdRequest$ErrorCode com.google.ads.AdRequest$ErrorCode.valueOf(java.lang.String)@Lcom/google/ads/AdRequest$ErrorCode@1@9@1@9
+316472@void eu.chainfire.cfbench.ResultPreference.setContent(java.lang.String, java.lang.String)@Leu/chainfire/cfbench/ResultPreference@0@0@2@99
+319488@void eu.chainfire.cfbench.ScorePreference.onRestoreInstanceState(android.os.Parcelable)@Leu/chainfire/cfbench/ScorePreference@0@0@1@9
+300808@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$26(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+264704@boolean eu.chainfire.cfbench.MainActivity$2.onPreferenceClick(android.preference.Preference)@Leu/chainfire/cfbench/MainActivity$2@0@1@1@9
+336048@void w.<init>(java.lang.String, android.content.Context)@Lw@0@0@2@99
+224128@void com.google.ads.AdView.<init>(android.content.Context, android.util.AttributeSet, int)@Lcom/google/ads/AdView@0@0@3@991
+299712@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$10(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+233736@org.json.JSONArray com.google.ads.util.AdUtil.a(java.util.Set)@Lcom/google/ads/util/AdUtil@1@9@1@9
+336168@void w.run()@Lw@0@0@0
+226376@void com.google.ads.AdView.setAdListener(com.google.ads.AdListener)@Lcom/google/ads/AdView@0@0@1@9
+267168@void eu.chainfire.cfbench.MainActivity$LongBench.<init>(eu.chainfire.cfbench.MainActivity, eu.chainfire.cfbench.MainActivity$LongBench)@Leu/chainfire/cfbench/MainActivity$LongBench@0@0@2@99
+312272@android.preference.CheckBoxPreference eu.chainfire.cfbench.Pref.Check(android.content.Context, android.preference.PreferenceCategory, java.lang.String, java.lang.String, java.lang.String, java.lang.Object, boolean)@Leu/chainfire/cfbench/Pref@1@9@7@9999991
+224216@void com.google.ads.AdView.a(android.app.Activity, com.google.ads.AdSize, java.lang.String)@Lcom/google/ads/AdView@0@0@3@999
+255112@h d.j()@Ld@0@9@0
+195648@boolean a.b(android.net.Uri)@La@1@1@1@9
+208432@void c.a(com.google.ads.AdRequest$ErrorCode)@Lc@0@0@1@9
+267952@long eu.chainfire.cfbench.MainActivity$AsyncBenchmark$10.bench()@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$10@0@2@0
+301352@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$33(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+235104@void com.google.ads.util.AdUtil.a(java.net.HttpURLConnection, android.content.Context)@Lcom/google/ads/util/AdUtil@1@0@2@99
+300032@eu.chainfire.cfbench.ResultPreference eu.chainfire.cfbench.MainActivity.access$15(eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity@1@9@1@9
+317440@void eu.chainfire.cfbench.ScorePreference.<init>(android.content.Context, android.content.SharedPreferences, int)@Leu/chainfire/cfbench/ScorePreference@0@0@3@991
+250000@void d.a()@Ld@0@0@0
+268816@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark$1UpdateRunnable.run()@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$1UpdateRunnable@0@0@0
+327120@boolean h.shouldOverrideUrlLoading(android.webkit.WebView, java.lang.String)@Lh@0@1@2@99
+221520@void com.google.ads.AdView.<init>(android.content.Context, android.util.AttributeSet)@Lcom/google/ads/AdView@0@0@2@99
+239440@java.lang.String com.google.ads.util.AdUtil.e(android.content.Context)@Lcom/google/ads/util/AdUtil@1@9@1@9
+314504@void eu.chainfire.cfbench.ResultPreference$SavedState.<init>(android.os.Parcelable)@Leu/chainfire/cfbench/ResultPreference$SavedState@0@0@1@9
+314504@void eu.chainfire.cfbench.ScorePreference$SavedState.<init>(android.os.Parcelable)@Leu/chainfire/cfbench/ScorePreference$SavedState@0@0@1@9
+260344@void eu.chainfire.cfbench.AdmobPreference.<init>(android.content.Context)@Leu/chainfire/cfbench/AdmobPreference@0@0@1@9
+333528@void s.a(d, java.util.HashMap, android.webkit.WebView)@Ls@0@0@3@999
+253944@void d.d()@Ld@0@0@0
+318552@void eu.chainfire.cfbench.ScorePreference.onBindView(android.view.View)@Leu/chainfire/cfbench/ScorePreference@0@0@1@9
+251664@void d.a(com.google.ads.AdRequest$ErrorCode)@Ld@0@0@1@9
+267840@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark$10.<init>(eu.chainfire.cfbench.MainActivity$AsyncBenchmark, eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$10@0@0@2@99
+267840@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark$11.<init>(eu.chainfire.cfbench.MainActivity$AsyncBenchmark, eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$11@0@0@2@99
+267840@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark$12.<init>(eu.chainfire.cfbench.MainActivity$AsyncBenchmark, eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$12@0@0@2@99
+267840@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark$13.<init>(eu.chainfire.cfbench.MainActivity$AsyncBenchmark, eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$13@0@0@2@99
+267840@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark$1.<init>(eu.chainfire.cfbench.MainActivity$AsyncBenchmark, eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$1@0@0@2@99
+267840@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark$2.<init>(eu.chainfire.cfbench.MainActivity$AsyncBenchmark, eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$2@0@0@2@99
+267840@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark$3.<init>(eu.chainfire.cfbench.MainActivity$AsyncBenchmark, eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$3@0@0@2@99
+267840@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark$4.<init>(eu.chainfire.cfbench.MainActivity$AsyncBenchmark, eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$4@0@0@2@99
+267840@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark$5.<init>(eu.chainfire.cfbench.MainActivity$AsyncBenchmark, eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$5@0@0@2@99
+267840@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark$6.<init>(eu.chainfire.cfbench.MainActivity$AsyncBenchmark, eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$6@0@0@2@99
+267840@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark$7.<init>(eu.chainfire.cfbench.MainActivity$AsyncBenchmark, eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$7@0@0@2@99
+267840@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark$8.<init>(eu.chainfire.cfbench.MainActivity$AsyncBenchmark, eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$8@0@0@2@99
+267840@void eu.chainfire.cfbench.MainActivity$AsyncBenchmark$9.<init>(eu.chainfire.cfbench.MainActivity$AsyncBenchmark, eu.chainfire.cfbench.MainActivity)@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$9@0@0@2@99
+200696@com.google.ads.AdRequest$ErrorCode c.a(com.google.ads.AdRequest[])@Lc@0@9@1@9
+269064@long eu.chainfire.cfbench.MainActivity$AsyncBenchmark$2.bench()@Leu/chainfire/cfbench/MainActivity$AsyncBenchmark$2@0@2@0
+199856@java.lang.Object b.doInBackground(java.lang.Object[])@Lb@0@9@1@9
+254728@c d.g()@Ld@0@9@0

@@ -1,0 +1,880 @@
+MAGIC:
+oat
+039
+
+CHECKSUM:
+0xbed63a35
+
+INSTRUCTION SET:
+Thumb2
+
+INSTRUCTION SET FEATURES:
+none
+
+DEX FILE COUNT:
+1
+
+EXECUTABLE OFFSET:
+0x00002000
+
+INTERPRETER TO INTERPRETER BRIDGE OFFSET:
+0x00000000
+
+INTERPRETER TO COMPILED CODE BRIDGE OFFSET:
+0x00000000
+
+JNI DLSYM LOOKUP OFFSET:
+0x00000000
+
+PORTABLE IMT CONFLICT TRAMPOLINE OFFSET:
+0x00000000
+
+PORTABLE RESOLUTION TRAMPOLINE OFFSET:
+0x00000000
+
+PORTABLE TO INTERPRETER BRIDGE OFFSET:
+0x00000000
+
+QUICK GENERIC JNI TRAMPOLINE OFFSET:
+0x00000000
+
+QUICK IMT CONFLICT TRAMPOLINE OFFSET:
+0x00000000
+
+QUICK RESOLUTION TRAMPOLINE OFFSET:
+0x00000000
+
+QUICK TO INTERPRETER BRIDGE OFFSET:
+0x00000000
+
+IMAGE PATCH DELTA:
+-7745536 (0xff89d000)
+
+IMAGE FILE LOCATION OAT CHECKSUM:
+0x4dbef4fa
+
+IMAGE FILE LOCATION OAT BEGIN:
+0x703bf000
+
+KEY VALUE STORE:
+dex2oat-cmdline = --zip-fd=6 --zip-location=/data/app/hk.edu.polyu.jniartdroid-1/base.apk --oat-fd=7 --oat-location=/data/dalvik-cache/arm/data@app@hk.edu.polyu.jniartdroid-1@base.apk@classes.dex --instruction-set=arm --instruction-set-features=default --runtime-arg -Xms64m --runtime-arg -Xmx512m --compiler-filter=everything
+dex2oat-host = Arm
+image-location = /data/dalvik-cache/arm/system@framework@boot.art
+
+SIZE:
+9040
+
+OatDexFile:
+location: /data/app/hk.edu.polyu.jniartdroid-1/base.apk
+checksum: 0xed864965
+0: Lhk/edu/polyu/jniartdroid/BuildConfig; (offset=0x000013c0) (type_idx=13) (StatusVerified) (OatClassAllCompiled)
+  0: void hk.edu.polyu.jniartdroid.BuildConfig.<init>() (dex_method_idx=8) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@25
+      0x0003: return-void
+    OatMethodOffsets (offset=0x000013c4)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x0000145c)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x000014ce)
+      vmap_table: (offset=0x0000150a)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)
+1: Lhk/edu/polyu/jniartdroid/MainActivity; (offset=0x000013cc) (type_idx=14) (StatusVerified) (OatClassSomeCompiled)
+  0: void hk.edu.polyu.jniartdroid.MainActivity.<clinit>() (dex_method_idx=9) 65544
+    DEX CODE:
+      0x0000: const-string v0, "native-lib" // string@81
+      0x0002: invoke-static {v0}, void java.lang.System.loadLibrary(java.lang.String) // method@26
+      0x0005: return-void
+    OatMethodOffsets (offset=0x00000000)
+      code_offset: 0x00000000 
+      gc_map: (offset=0x00000000)
+    OatQuickMethodHeader (offset=0x00000000)
+      mapping_table: (offset=0x00000000)
+      vmap_table: (offset=0x00000000)
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 0
+      core_spill_mask: 0x00000000 
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00000000 size_offset=0x00000000 size=0)
+      NO CODE!
+  1: void hk.edu.polyu.jniartdroid.MainActivity.<init>() (dex_method_idx=10) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void android.app.Activity.<init>() // method@0
+      0x0003: return-void
+    OatMethodOffsets (offset=0x000013d8)
+      code_offset: 0x00002071 
+      gc_map: (offset=0x0000145c)
+    OatQuickMethodHeader (offset=0x00002058)
+      mapping_table: (offset=0x000014ce)
+      vmap_table: (offset=0x0000150a)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002071 size_offset=0x0000206c size=60)...
+      0x00002070: f5bd5c00	subs    r12, sp, #8192
+      0x00002074: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002078: e92d4060	push    {r5, r6, lr}
+      0x0000207c: b085    	sub     sp, sp, #20
+      0x0000207e: 1c06    	mov     r6, r0
+      0x00002080: 9000    	str     r0, [sp, #0]
+      0x00002082: 1c0d    	mov     r5, r1
+      0x00002084: f2461e01	movw    lr, #24833
+      0x00002088: f2c72ecf	movt    lr, #29391
+      0x0000208c: f64f2018	movw    r0, #64024
+      0x00002090: f6c670e8	movt    r0, #28648
+      0x00002094: 1c29    	mov     r1, r5
+      0x00002096: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002098: 3c01    	subs    r4, #1
+      0x0000209a: f0008003	beq.w   +6 (0x000020a4)
+      0x0000209e: b005    	add     sp, sp, #20
+      0x000020a0: e8bd8060	pop     {r5, r6, pc}
+      0x000020a4: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x000020a8: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x000020aa: e7f8    	b       -16 (0x0000209e)
+  2: java.lang.String hk.edu.polyu.jniartdroid.MainActivity.convertDeviceId(java.lang.String) (dex_method_idx=11) 257
+    DEX CODE:
+    OatMethodOffsets (offset=0x000013e0)
+      code_offset: 0x000020c9 
+      gc_map: (offset=0x00000000)
+    OatQuickMethodHeader (offset=0x000020b0)
+      mapping_table: (offset=0x00000000)
+      vmap_table: (offset=0x00000000)
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 64
+      core_spill_mask: 0x00004de0 (r5, r6, r7, r8, r10, r11, r14)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x000020c9 size_offset=0x000020c4 size=142)...
+      0x000020c8: e92d4de0	push    {r5, r6, r7, r8, r10, r11, lr}
+      0x000020cc: f2ad0d24	subw    sp, sp, #36
+      0x000020d0: 9000    	str     r0, [sp, #0]
+      0x000020d2: 9111    	str     r1, [sp, #68]
+      0x000020d4: 9212    	str     r2, [sp, #72]
+      0x000020d6: f04f0c02	mov.w   r12, #2
+      0x000020da: f8cdc008	str.w   r12, [sp, #8]
+      0x000020de: f8d9c0c8	ldr.w   r12, [r9, #200]  ; top_handle_scope
+      0x000020e2: f8cdc004	str.w   r12, [sp, #4]
+      0x000020e6: f20d0c04	addw    r12, sp, #4
+      0x000020ea: f8c9c0c8	str.w   r12, [r9, #200]
+      0x000020ee: f8ddc044	ldr.w   r12, [sp, #68]
+      0x000020f2: f8cdc00c	str.w   r12, [sp, #12]
+      0x000020f6: f8ddc048	ldr.w   r12, [sp, #72]
+      0x000020fa: f8cdc010	str.w   r12, [sp, #16]
+      0x000020fe: f8c9d08c	str.w   sp, [r9, #140]
+      0x00002102: f04f0c00	mov.w   r12, #0
+      0x00002106: f8c9c090	str.w   r12, [r9, #144]
+      0x0000210a: 4648    	mov     r0, r9
+      0x0000210c: f8d0c194	ldr.w   r12, [r0, #404]
+      0x00002110: 47e0    	blx     r12
+      0x00002112: 9005    	str     r0, [sp, #20]
+      0x00002114: 9a04    	ldr     r2, [sp, #16]
+      0x00002116: 2a00    	cmp     r2, #0
+      0x00002118: bf18    	it      ne
+      0x0000211a: f20d0210	addwne  r2, sp, #16
+      0x0000211e: f20d010c	addw    r1, sp, #12
+      0x00002122: f8d90098	ldr.w   r0, [r9, #152]  ; jni_env
+      0x00002126: f8ddc000	ldr.w   r12, [sp, #0]
+      0x0000212a: f8dcc020	ldr.w   r12, [r12, #32]
+      0x0000212e: 47e0    	blx     r12
+      0x00002130: 9905    	ldr     r1, [sp, #20]
+      0x00002132: 464a    	mov     r2, r9
+      0x00002134: f8d2c1a4	ldr.w   r12, [r2, #420]
+      0x00002138: 47e0    	blx     r12
+      0x0000213a: f8d9c07c	ldr.w   r12, [r9, #124]  ; exception
+      0x0000213e: f1bc0f00	cmp.w   r12, #0
+      0x00002142: d103    	bne     +6 (0x0000214c)
+      0x00002144: f20d0d24	addw    sp, sp, #36
+      0x00002148: e8bd8de0	pop     {r5, r6, r7, r8, r10, r11, pc}
+      0x0000214c: 4660    	mov     r0, r12
+      0x0000214e: f8d9c234	ldr.w   r12, [r9, #564]  ; pDeliverException
+      0x00002152: 47e0    	blx     r12
+      0x00002154: be00    	        
+  3: void hk.edu.polyu.jniartdroid.MainActivity.onCreate(android.os.Bundle) (dex_method_idx=14) 4
+    DEX CODE:
+      0x0000: const/4 v2, #+0
+      0x0001: invoke-super {v9, v10}, void android.app.Activity.onCreate(android.os.Bundle) // method@1
+      0x0004: const/high16 v1, #int +2130903040 // 0x7f030000
+      0x0006: invoke-virtual {v9, v1}, void hk.edu.polyu.jniartdroid.MainActivity.setContentView(int) // method@15
+      0x0009: invoke-virtual {v9}, android.content.Context hk.edu.polyu.jniartdroid.MainActivity.getApplicationContext() // method@13
+      0x000c: move-result-object v1
+      0x000d: const-string v4, "phone" // string@83
+      0x000f: invoke-virtual {v1, v4}, java.lang.Object android.content.Context.getSystemService(java.lang.String) // method@2
+      0x0012: move-result-object v7
+      0x0013: check-cast v7, android.telephony.TelephonyManager // type@6
+      0x0015: invoke-virtual {v7}, java.lang.String android.telephony.TelephonyManager.getDeviceId() // method@5
+      0x0018: move-result-object v6
+      0x0019: invoke-virtual {v9, v6}, java.lang.String hk.edu.polyu.jniartdroid.MainActivity.convertDeviceId(java.lang.String) // method@11
+      0x001c: move-result-object v3
+      0x001d: const v1, #+2131230721
+      0x0020: invoke-virtual {v9, v1}, android.view.View hk.edu.polyu.jniartdroid.MainActivity.findViewById(int) // method@12
+      0x0023: move-result-object v8
+      0x0024: check-cast v8, android.widget.TextView // type@9
+      0x0026: invoke-virtual {v8, v3}, void android.widget.TextView.setText(java.lang.CharSequence) // method@7
+      0x0029: invoke-static {}, android.telephony.SmsManager android.telephony.SmsManager.getDefault() // method@3
+      0x002c: move-result-object v0
+      0x002d: const-string v1, "+49 1234" // string@1
+      0x002f: move-object v4, v2
+      0x0030: move-object v5, v2
+      0x0031: invoke-virtual/range, {v0 .. v5}, void android.telephony.SmsManager.sendTextMessage(java.lang.String, java.lang.String, java.lang.String, android.app.PendingIntent, android.app.PendingIntent) // method@4
+      0x0034: const-string v1, "PolyU" // string@44
+      0x0036: const-string v2, "sendTextMessage success" // string@87
+      0x0038: invoke-static {v1, v2}, int android.util.Log.d(java.lang.String, java.lang.String) // method@6
+      0x003b: return-void
+    OatMethodOffsets (offset=0x000013e8)
+      code_offset: 0x00002171 
+      gc_map: (offset=0x00001466)
+    OatQuickMethodHeader (offset=0x00002158)
+      mapping_table: (offset=0x000014d6)
+      vmap_table: (offset=0x0000150e)
+      v65534/r5, v1/r6, v9/r7, v3/r8, v7/r10, v8/r11, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 96
+      core_spill_mask: 0x00008de0 (r5, r6, r7, r8, r10, r11, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002171 size_offset=0x0000216c size=476)...
+      0x00002170: f5bd5c00	subs    r12, sp, #8192
+      0x00002174: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v9 (r7), v10 ([sp + #104])
+      0x00002178: e92d4de0	push    {r5, r6, r7, r8, r10, r11, lr}
+      0x0000217c: b091    	sub     sp, sp, #68
+      0x0000217e: 1c05    	mov     r5, r0
+      0x00002180: 9000    	str     r0, [sp, #0]
+      0x00002182: 1c0f    	mov     r7, r1
+      0x00002184: 921a    	str     r2, [sp, #104]
+      0x00002186: 2200    	movs    r2, #0
+      0x00002188: 9209    	str     r2, [sp, #36]
+      0x0000218a: f24a1e29	movw    lr, #41257
+      0x0000218e: f2c72ecf	movt    lr, #29391
+      0x00002192: f64930a8	movw    r0, #39848
+      0x00002196: 9a1a    	ldr     r2, [sp, #104]
+      0x00002198: f6c670e9	movt    r0, #28649
+      0x0000219c: 1c39    	mov     r1, r7
+      0x0000219e: 47f0    	blx     lr
+      suspend point dex PC: 0x0001
+      GC map objects:  v9 (r7), v10 ([sp + #104])
+      0x000021a0: f2400600	movw    r6, #0
+      0x000021a4: f6c77603	movt    r6, #32515
+      0x000021a8: 1c39    	mov     r1, r7
+      0x000021aa: 6808    	ldr     r0, [r1, #0]
+      0x000021ac: 1c32    	mov     r2, r6
+      0x000021ae: f8d00660	ldr.w   r0, [r0, #1632]
+      0x000021b2: f8d0e028	ldr.w   lr, [r0, #40]
+      0x000021b6: 47f0    	blx     lr
+      suspend point dex PC: 0x0006
+      GC map objects:  v9 (r7), v10 ([sp + #104])
+      0x000021b8: 1c39    	mov     r1, r7
+      0x000021ba: 6808    	ldr     r0, [r1, #0]
+      0x000021bc: f8d00204	ldr.w   r0, [r0, #516]
+      0x000021c0: f8d0e028	ldr.w   lr, [r0, #40]
+      0x000021c4: 47f0    	blx     lr
+      suspend point dex PC: 0x0009
+      GC map objects:  v9 (r7), v10 ([sp + #104])
+      0x000021c6: 1c06    	mov     r6, r0
+      0x000021c8: 6968    	ldr     r0, [r5, #20]
+      0x000021ca: f8d00158	ldr.w   r0, [r0, #344]
+      0x000021ce: 2800    	cmp     r0, #0
+      0x000021d0: f0008089	beq.w   +274 (0x000022e6)
+      0x000021d4: 900b    	str     r0, [sp, #44]
+      0x000021d6: 9a0b    	ldr     r2, [sp, #44]
+      0x000021d8: 1c31    	mov     r1, r6
+      0x000021da: 6808    	ldr     r0, [r1, #0]
+      suspend point dex PC: 0x000f
+      GC map objects:  v1 (r6), v4 ([sp + #44]), v9 (r7), v10 ([sp + #104])
+      0x000021dc: f8d00288	ldr.w   r0, [r0, #648]
+      0x000021e0: f8d0e028	ldr.w   lr, [r0, #40]
+      0x000021e4: 47f0    	blx     lr
+      suspend point dex PC: 0x000f
+      GC map objects:  v1 (r6), v4 ([sp + #44]), v9 (r7), v10 ([sp + #104])
+      0x000021e6: 4682    	mov     r10, r0
+      0x000021e8: 1c29    	mov     r1, r5
+      0x000021ea: 690a    	ldr     r2, [r1, #16]
+      0x000021ec: 6a52    	ldr     r2, [r2, #36]
+      0x000021ee: 2a00    	cmp     r2, #0
+      0x000021f0: d07f    	beq     +254 (0x000022f2)
+      0x000021f2: 4650    	mov     r0, r10
+      0x000021f4: b118    	cbz     r0, +6 (0x000021fe)
+      0x000021f6: 6801    	ldr     r1, [r0, #0]
+      0x000021f8: 4291    	cmp     r1, r2
+      0x000021fa: f0408080	bne.w   +256 (0x000022fe)
+      0x000021fe: 4651    	mov     r1, r10
+      0x00002200: 6808    	ldr     r0, [r1, #0]
+      suspend point dex PC: 0x0015
+      GC map objects:  v1 (r6), v4 ([sp + #44]), v7 (r10), v9 (r7), v10 ([sp + #104])
+      0x00002202: f8d00234	ldr.w   r0, [r0, #564]
+      0x00002206: f8d0e028	ldr.w   lr, [r0, #40]
+      0x0000220a: 47f0    	blx     lr
+      suspend point dex PC: 0x0015
+      GC map objects:  v1 (r6), v4 ([sp + #44]), v7 (r10), v9 (r7), v10 ([sp + #104])
+      0x0000220c: 900d    	str     r0, [sp, #52]
+      0x0000220e: 9a0d    	ldr     r2, [sp, #52]
+      0x00002210: 1c39    	mov     r1, r7
+      0x00002212: 6808    	ldr     r0, [r1, #0]
+      0x00002214: f8d00750	ldr.w   r0, [r0, #1872]
+      0x00002218: f8d0e028	ldr.w   lr, [r0, #40]
+      0x0000221c: 47f0    	blx     lr
+      suspend point dex PC: 0x0019
+      GC map objects:  v1 (r6), v4 ([sp + #44]), v6 ([sp + #52]), v7 (r10), v9 (r7), v10 ([sp + #104])
+      0x0000221e: 4680    	mov     r8, r0
+      0x00002220: f2400601	movw    r6, #1
+      0x00002224: f6c77608	movt    r6, #32520
+      0x00002228: 1c39    	mov     r1, r7
+      0x0000222a: 6808    	ldr     r0, [r1, #0]
+      0x0000222c: 1c32    	mov     r2, r6
+      0x0000222e: f8d003cc	ldr.w   r0, [r0, #972]
+      0x00002232: f8d0e028	ldr.w   lr, [r0, #40]
+      0x00002236: 47f0    	blx     lr
+      suspend point dex PC: 0x0020
+      GC map objects:  v3 (r8), v4 ([sp + #44]), v6 ([sp + #52]), v7 (r10), v9 (r7), v10 ([sp + #104])
+      0x00002238: 4683    	mov     r11, r0
+      0x0000223a: 1c29    	mov     r1, r5
+      0x0000223c: 690a    	ldr     r2, [r1, #16]
+      0x0000223e: 6b12    	ldr     r2, [r2, #48]
+      0x00002240: 2a00    	cmp     r2, #0
+      0x00002242: d061    	beq     +194 (0x00002308)
+      0x00002244: 4658    	mov     r0, r11
+      0x00002246: b118    	cbz     r0, +6 (0x00002250)
+      0x00002248: 6801    	ldr     r1, [r0, #0]
+      0x0000224a: 4291    	cmp     r1, r2
+      0x0000224c: f0408062	bne.w   +196 (0x00002314)
+      0x00002250: f2475ee1	movw    lr, #30177
+      0x00002254: f2c72e74	movt    lr, #29300
+      0x00002258: f2431078	movw    r0, #12664
+      0x0000225c: f2c70009	movt    r0, #28681
+      0x00002260: 4659    	mov     r1, r11
+      0x00002262: 4642    	mov     r2, r8
+      0x00002264: f8d1c000	ldr.w   r12, [r1, #0]
+      suspend point dex PC: 0x0026
+      GC map objects:  v3 (r8), v4 ([sp + #44]), v6 ([sp + #52]), v7 (r10), v8 (r11), v9 (r7), v10 ([sp + #104])
+      0x00002268: 47f0    	blx     lr
+      suspend point dex PC: 0x0026
+      GC map objects:  v3 (r8), v4 ([sp + #44]), v6 ([sp + #52]), v7 (r10), v8 (r11), v9 (r7), v10 ([sp + #104])
+      0x0000226a: 1c28    	mov     r0, r5
+      0x0000226c: 68c0    	ldr     r0, [r0, #12]
+      0x0000226e: 6980    	ldr     r0, [r0, #24]
+      0x00002270: f8d0e028	ldr.w   lr, [r0, #40]
+      0x00002274: 47f0    	blx     lr
+      suspend point dex PC: 0x0029
+      GC map objects:  v3 (r8), v4 ([sp + #44]), v6 ([sp + #52]), v7 (r10), v8 (r11), v9 (r7), v10 ([sp + #104])
+      0x00002276: 9007    	str     r0, [sp, #28]
+      0x00002278: 6968    	ldr     r0, [r5, #20]
+      0x0000227a: 6900    	ldr     r0, [r0, #16]
+      0x0000227c: 2800    	cmp     r0, #0
+      0x0000227e: d04e    	beq     +156 (0x0000231e)
+      0x00002280: 1c06    	mov     r6, r0
+      0x00002282: 2000    	movs    r0, #0
+      0x00002284: 900b    	str     r0, [sp, #44]
+      0x00002286: 2100    	movs    r1, #0
+      0x00002288: 910c    	str     r1, [sp, #48]
+      0x0000228a: f8cd8028	str.w   r8, [sp, #40]
+      0x0000228e: 1c28    	mov     r0, r5
+      0x00002290: ab0a    	add     r3, sp, #40
+      0x00002292: ec930a03	vldm.f32 r3, {s0-s2}
+      0x00002296: 68c0    	ldr     r0, [r0, #12]
+      0x00002298: ab04    	add     r3, sp, #16
+      0x0000229a: 69c0    	ldr     r0, [r0, #28]
+      0x0000229c: ec830a03	vstm.f32 r3, {s0-s2}
+      0x000022a0: f8d0e028	ldr.w   lr, [r0, #40]
+      0x000022a4: 9907    	ldr     r1, [sp, #28]
+      0x000022a6: 1c32    	mov     r2, r6
+      0x000022a8: 2300    	movs    r3, #0
+      0x000022aa: f8d1c000	ldr.w   r12, [r1, #0]
+      suspend point dex PC: 0x0031
+      GC map objects:  v0 ([sp + #28]), v1 (r6), v3 (r8), v6 ([sp + #52]), v7 (r10), v8 (r11), v9 (r7), v10 ([sp + #104])
+      0x000022ae: 47f0    	blx     lr
+      suspend point dex PC: 0x0031
+      GC map objects:  v0 ([sp + #28]), v1 (r6), v3 (r8), v6 ([sp + #52]), v7 (r10), v8 (r11), v9 (r7), v10 ([sp + #104])
+      0x000022b0: 6968    	ldr     r0, [r5, #20]
+      0x000022b2: f8d000bc	ldr.w   r0, [r0, #188]
+      0x000022b6: b3c0    	cbz     r0, +112 (0x0000232a)
+      0x000022b8: 1c06    	mov     r6, r0
+      0x000022ba: 6968    	ldr     r0, [r5, #20]
+      0x000022bc: f8d00168	ldr.w   r0, [r0, #360]
+      0x000022c0: b3c8    	cbz     r0, +114 (0x00002336)
+      0x000022c2: 9009    	str     r0, [sp, #36]
+      0x000022c4: f2462e01	movw    lr, #25089
+      0x000022c8: f2c72eb0	movt    lr, #29360
+      0x000022cc: f64e4000	movw    r0, #60416
+      0x000022d0: 9a09    	ldr     r2, [sp, #36]
+      0x000022d2: f2c70002	movt    r0, #28674
+      0x000022d6: 1c31    	mov     r1, r6
+      0x000022d8: 47f0    	blx     lr
+      suspend point dex PC: 0x0038
+      GC map objects:  v0 ([sp + #28]), v1 (r6), v2 ([sp + #36]), v3 (r8), v6 ([sp + #52]), v7 (r10), v8 (r11), v9 (r7), v10 ([sp + #104])
+      0x000022da: 3c01    	subs    r4, #1
+      0x000022dc: f0008031	beq.w   +98 (0x00002342)
+      0x000022e0: b011    	add     sp, sp, #68
+      0x000022e2: e8bd8de0	pop     {r5, r6, r7, r8, r10, r11, pc}
+      0x000022e6: f8d9e150	ldr.w   lr, [r9, #336]  ; pResolveString
+      0x000022ea: 1c28    	mov     r0, r5
+      0x000022ec: 2153    	movs    r1, #83
+      0x000022ee: 47f0    	blx     lr
+      suspend point dex PC: 0x000d
+      GC map objects:  v1 (r6), v9 (r7), v10 ([sp + #104])
+      0x000022f0: e770    	b       -288 (0x000021d4)
+      0x000022f2: f8d9e14c	ldr.w   lr, [r9, #332]  ; pInitializeType
+      0x000022f6: 2006    	movs    r0, #6
+      0x000022f8: 47f0    	blx     lr
+      suspend point dex PC: 0x0013
+      GC map objects:  v1 (r6), v4 ([sp + #44]), v7 (r10), v9 (r7), v10 ([sp + #104])
+      0x000022fa: 1c02    	mov     r2, r0
+      0x000022fc: e779    	b       -270 (0x000021f2)
+      0x000022fe: f8d9e140	ldr.w   lr, [r9, #320]  ; pCheckCast
+      0x00002302: 1c10    	mov     r0, r2
+      0x00002304: 47f0    	blx     lr
+      suspend point dex PC: 0x0013
+      GC map objects:  v1 (r6), v4 ([sp + #44]), v7 (r10), v9 (r7), v10 ([sp + #104])
+      0x00002306: e77a    	b       -268 (0x000021fe)
+      0x00002308: f8d9e14c	ldr.w   lr, [r9, #332]  ; pInitializeType
+      0x0000230c: 2009    	movs    r0, #9
+      0x0000230e: 47f0    	blx     lr
+      suspend point dex PC: 0x0024
+      GC map objects:  v3 (r8), v4 ([sp + #44]), v6 ([sp + #52]), v7 (r10), v8 (r11), v9 (r7), v10 ([sp + #104])
+      0x00002310: 1c02    	mov     r2, r0
+      0x00002312: e797    	b       -210 (0x00002244)
+      0x00002314: f8d9e140	ldr.w   lr, [r9, #320]  ; pCheckCast
+      0x00002318: 1c10    	mov     r0, r2
+      0x0000231a: 47f0    	blx     lr
+      suspend point dex PC: 0x0024
+      GC map objects:  v3 (r8), v4 ([sp + #44]), v6 ([sp + #52]), v7 (r10), v8 (r11), v9 (r7), v10 ([sp + #104])
+      0x0000231c: e798    	b       -208 (0x00002250)
+      0x0000231e: f8d9e150	ldr.w   lr, [r9, #336]  ; pResolveString
+      0x00002322: 1c28    	mov     r0, r5
+      0x00002324: 2101    	movs    r1, #1
+      0x00002326: 47f0    	blx     lr
+      suspend point dex PC: 0x002d
+      GC map objects:  v0 ([sp + #28]), v3 (r8), v4 ([sp + #44]), v6 ([sp + #52]), v7 (r10), v8 (r11), v9 (r7), v10 ([sp + #104])
+      0x00002328: e7aa    	b       -172 (0x00002280)
+      0x0000232a: f8d9e150	ldr.w   lr, [r9, #336]  ; pResolveString
+      0x0000232e: 1c28    	mov     r0, r5
+      0x00002330: 212c    	movs    r1, #44
+      0x00002332: 47f0    	blx     lr
+      suspend point dex PC: 0x0034
+      GC map objects:  v0 ([sp + #28]), v1 (r6), v3 (r8), v6 ([sp + #52]), v7 (r10), v8 (r11), v9 (r7), v10 ([sp + #104])
+      0x00002334: e7c0    	b       -128 (0x000022b8)
+      0x00002336: f8d9e150	ldr.w   lr, [r9, #336]  ; pResolveString
+      0x0000233a: 1c28    	mov     r0, r5
+      0x0000233c: 2157    	movs    r1, #87
+      0x0000233e: 47f0    	blx     lr
+      suspend point dex PC: 0x0036
+      GC map objects:  v0 ([sp + #28]), v1 (r6), v3 (r8), v6 ([sp + #52]), v7 (r10), v8 (r11), v9 (r7), v10 ([sp + #104])
+      0x00002340: e7bf    	b       -130 (0x000022c2)
+      0x00002342: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002346: 47f0    	blx     lr
+      suspend point dex PC: 0x003b
+      0x00002348: e7ca    	b       -108 (0x000022e0)
+      0x0000234a: 0000    	lsls    r0, r0, #0
+2: Lhk/edu/polyu/jniartdroid/R$attr; (offset=0x000013f0) (type_idx=15) (StatusInitialized) (OatClassAllCompiled)
+  0: void hk.edu.polyu.jniartdroid.R$attr.<init>() (dex_method_idx=16) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@25
+      0x0003: return-void
+    OatMethodOffsets (offset=0x000013f4)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x0000145c)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x000014ce)
+      vmap_table: (offset=0x0000150a)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)
+3: Lhk/edu/polyu/jniartdroid/R$color; (offset=0x000013fc) (type_idx=16) (StatusVerified) (OatClassAllCompiled)
+  0: void hk.edu.polyu.jniartdroid.R$color.<init>() (dex_method_idx=17) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@25
+      0x0003: return-void
+    OatMethodOffsets (offset=0x00001400)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x0000145c)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x000014ce)
+      vmap_table: (offset=0x0000150a)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)
+4: Lhk/edu/polyu/jniartdroid/R$dimen; (offset=0x00001408) (type_idx=17) (StatusVerified) (OatClassAllCompiled)
+  0: void hk.edu.polyu.jniartdroid.R$dimen.<init>() (dex_method_idx=18) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@25
+      0x0003: return-void
+    OatMethodOffsets (offset=0x0000140c)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x0000145c)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x000014ce)
+      vmap_table: (offset=0x0000150a)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)
+5: Lhk/edu/polyu/jniartdroid/R$id; (offset=0x00001414) (type_idx=18) (StatusVerified) (OatClassAllCompiled)
+  0: void hk.edu.polyu.jniartdroid.R$id.<init>() (dex_method_idx=19) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@25
+      0x0003: return-void
+    OatMethodOffsets (offset=0x00001418)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x0000145c)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x000014ce)
+      vmap_table: (offset=0x0000150a)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)
+6: Lhk/edu/polyu/jniartdroid/R$layout; (offset=0x00001420) (type_idx=19) (StatusVerified) (OatClassAllCompiled)
+  0: void hk.edu.polyu.jniartdroid.R$layout.<init>() (dex_method_idx=20) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@25
+      0x0003: return-void
+    OatMethodOffsets (offset=0x00001424)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x0000145c)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x000014ce)
+      vmap_table: (offset=0x0000150a)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)
+7: Lhk/edu/polyu/jniartdroid/R$mipmap; (offset=0x0000142c) (type_idx=20) (StatusVerified) (OatClassAllCompiled)
+  0: void hk.edu.polyu.jniartdroid.R$mipmap.<init>() (dex_method_idx=21) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@25
+      0x0003: return-void
+    OatMethodOffsets (offset=0x00001430)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x0000145c)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x000014ce)
+      vmap_table: (offset=0x0000150a)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)
+8: Lhk/edu/polyu/jniartdroid/R$string; (offset=0x00001438) (type_idx=21) (StatusVerified) (OatClassAllCompiled)
+  0: void hk.edu.polyu.jniartdroid.R$string.<init>() (dex_method_idx=22) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@25
+      0x0003: return-void
+    OatMethodOffsets (offset=0x0000143c)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x0000145c)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x000014ce)
+      vmap_table: (offset=0x0000150a)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)
+9: Lhk/edu/polyu/jniartdroid/R$style; (offset=0x00001444) (type_idx=22) (StatusVerified) (OatClassAllCompiled)
+  0: void hk.edu.polyu.jniartdroid.R$style.<init>() (dex_method_idx=23) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@25
+      0x0003: return-void
+    OatMethodOffsets (offset=0x00001448)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x0000145c)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x000014ce)
+      vmap_table: (offset=0x0000150a)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)
+10: Lhk/edu/polyu/jniartdroid/R; (offset=0x00001450) (type_idx=23) (StatusInitialized) (OatClassAllCompiled)
+  0: void hk.edu.polyu.jniartdroid.R.<init>() (dex_method_idx=24) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@25
+      0x0003: return-void
+    OatMethodOffsets (offset=0x00001454)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x0000145c)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x000014ce)
+      vmap_table: (offset=0x0000150a)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)

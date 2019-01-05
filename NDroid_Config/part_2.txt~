@@ -1,0 +1,14 @@
+268320@void eu.chainfire.cfbench.BenchNative.report_float(float)@Leu/chainfire/cfbench/BenchNative@1@0@1@1
+268320@void eu.chainfire.cfbench.BenchNative.report_uint32(int)@Leu/chainfire/cfbench/BenchNative@1@0@1@1
+267880@long eu.chainfire.cfbench.BenchNative.benchDiskRead()@Leu/chainfire/cfbench/BenchNative@1@2@0
+267880@long eu.chainfire.cfbench.BenchNative.benchDiskWrite()@Leu/chainfire/cfbench/BenchNative@1@2@0
+267880@long eu.chainfire.cfbench.BenchNative.benchMDFLOPS()@Leu/chainfire/cfbench/BenchNative@1@2@0
+267880@long eu.chainfire.cfbench.BenchNative.benchMIPS()@Leu/chainfire/cfbench/BenchNative@1@2@0
+267880@long eu.chainfire.cfbench.BenchNative.benchMSFLOPS()@Leu/chainfire/cfbench/BenchNative@1@2@0
+267880@long eu.chainfire.cfbench.BenchNative.benchMalloc()@Leu/chainfire/cfbench/BenchNative@1@2@0
+267880@long eu.chainfire.cfbench.BenchNative.benchMemReadAligned()@Leu/chainfire/cfbench/BenchNative@1@2@0
+267880@long eu.chainfire.cfbench.BenchNative.benchMemReadUnaligned()@Leu/chainfire/cfbench/BenchNative@1@2@0
+267880@long eu.chainfire.cfbench.BenchNative.benchMemWriteAligned()@Leu/chainfire/cfbench/BenchNative@1@2@0
+267880@long eu.chainfire.cfbench.BenchNative.benchMemWriteUnaligned()@Leu/chainfire/cfbench/BenchNative@1@2@0
+267880@long eu.chainfire.cfbench.BenchNative.getTickCount()@Leu/chainfire/cfbench/BenchNative@1@2@0
+268168@void eu.chainfire.cfbench.BenchNative.report_double(double)@Leu/chainfire/cfbench/BenchNative@1@0@1@2

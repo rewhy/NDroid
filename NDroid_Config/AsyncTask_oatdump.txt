@@ -1,0 +1,1030 @@
+MAGIC:
+oat
+039
+
+CHECKSUM:
+0xb4807fe7
+
+INSTRUCTION SET:
+Thumb2
+
+INSTRUCTION SET FEATURES:
+none
+
+DEX FILE COUNT:
+1
+
+EXECUTABLE OFFSET:
+0x00002000
+
+INTERPRETER TO INTERPRETER BRIDGE OFFSET:
+0x00000000
+
+INTERPRETER TO COMPILED CODE BRIDGE OFFSET:
+0x00000000
+
+JNI DLSYM LOOKUP OFFSET:
+0x00000000
+
+PORTABLE IMT CONFLICT TRAMPOLINE OFFSET:
+0x00000000
+
+PORTABLE RESOLUTION TRAMPOLINE OFFSET:
+0x00000000
+
+PORTABLE TO INTERPRETER BRIDGE OFFSET:
+0x00000000
+
+QUICK GENERIC JNI TRAMPOLINE OFFSET:
+0x00000000
+
+QUICK IMT CONFLICT TRAMPOLINE OFFSET:
+0x00000000
+
+QUICK RESOLUTION TRAMPOLINE OFFSET:
+0x00000000
+
+QUICK TO INTERPRETER BRIDGE OFFSET:
+0x00000000
+
+IMAGE PATCH DELTA:
+-7745536 (0xff89d000)
+
+IMAGE FILE LOCATION OAT CHECKSUM:
+0x4dbef4fa
+
+IMAGE FILE LOCATION OAT BEGIN:
+0x703bf000
+
+KEY VALUE STORE:
+dex2oat-cmdline = --zip-fd=6 --zip-location=/data/app/hk.polyu.asynctask-1/base.apk --oat-fd=7 --oat-location=/data/dalvik-cache/arm/data@app@hk.polyu.asynctask-1@base.apk@classes.dex --instruction-set=arm --instruction-set-features=default --runtime-arg -Xms64m --runtime-arg -Xmx512m --compiler-filter=everything
+dex2oat-host = Arm
+image-location = /data/dalvik-cache/arm/system@framework@boot.art
+
+SIZE:
+9288
+
+OatDexFile:
+location: /data/app/hk.polyu.asynctask-1/base.apk
+checksum: 0x2b7be068
+0: Lhk/polyu/asynctask/BuildConfig; (offset=0x00001520) (type_idx=13) (StatusVerified) (OatClassAllCompiled)
+  0: void hk.polyu.asynctask.BuildConfig.<init>() (dex_method_idx=7) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@28
+      0x0003: return-void
+    OatMethodOffsets (offset=0x00001524)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x000015dc)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x00001661)
+      vmap_table: (offset=0x000016c7)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)
+1: Lhk/polyu/asynctask/MainActivity$1; (offset=0x0000152c) (type_idx=14) (StatusInitialized) (OatClassNoneCompiled)
+2: Lhk/polyu/asynctask/MainActivity$MyAsyncTask; (offset=0x00001530) (type_idx=15) (StatusVerified) (OatClassAllCompiled)
+  0: void hk.polyu.asynctask.MainActivity$MyAsyncTask.<init>(hk.polyu.asynctask.MainActivity) (dex_method_idx=8) 65538
+    DEX CODE:
+      0x0000: iput-object v1, v0, Lhk/polyu/asynctask/MainActivity; hk.polyu.asynctask.MainActivity$MyAsyncTask.this$0 // field@6
+      0x0002: invoke-direct {v0}, void android.os.AsyncTask.<init>() // method@3
+      0x0005: return-void
+    OatMethodOffsets (offset=0x00001534)
+      code_offset: 0x00002071 
+      gc_map: (offset=0x000015e6)
+    OatQuickMethodHeader (offset=0x00002058)
+      mapping_table: (offset=0x00001669)
+      vmap_table: (offset=0x000016cb)
+      v0/r5, v1/r6, v65534/r7, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x000080e0 (r5, r6, r7, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002071 size_offset=0x0000206c size=72)...
+      0x00002070: f5bd5c00	subs    r12, sp, #8192
+      0x00002074: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5), v1 (r6)
+      0x00002078: e92d40e0	push    {r5, r6, r7, lr}
+      0x0000207c: b084    	sub     sp, sp, #16
+      0x0000207e: 1c07    	mov     r7, r0
+      0x00002080: 9000    	str     r0, [sp, #0]
+      0x00002082: 1c0d    	mov     r5, r1
+      0x00002084: 1c16    	mov     r6, r2
+      0x00002086: 61ee    	str     r6, [r5, #28]
+      0x00002088: b11e    	cbz     r6, +6 (0x00002092)
+      0x0000208a: f8d92078	ldr.w   r2, [r9, #120]  ; card_table
+      0x0000208e: 09eb    	lsrs    r3, r5, #7
+      0x00002090: 54d2    	strb    r2, [r2, r3]
+      0x00002092: 1c38    	mov     r0, r7
+      0x00002094: 68c0    	ldr     r0, [r0, #12]
+      0x00002096: 1c29    	mov     r1, r5
+      0x00002098: 6980    	ldr     r0, [r0, #24]
+      0x0000209a: f8d0e028	ldr.w   lr, [r0, #40]
+      0x0000209e: 47f0    	blx     lr
+      suspend point dex PC: 0x0002
+      GC map objects:  v0 (r5), v1 (r6)
+      0x000020a0: f3bf8f5a	dmb     ishst
+      0x000020a4: 3c01    	subs    r4, #1
+      0x000020a6: f0008003	beq.w   +6 (0x000020b0)
+      0x000020aa: b004    	add     sp, sp, #16
+      0x000020ac: e8bd80e0	pop     {r5, r6, r7, pc}
+      0x000020b0: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x000020b4: 47f0    	blx     lr
+      suspend point dex PC: 0x0005
+      0x000020b6: e7f8    	b       -16 (0x000020aa)
+  1: void hk.polyu.asynctask.MainActivity$MyAsyncTask.<init>(hk.polyu.asynctask.MainActivity, hk.polyu.asynctask.MainActivity$1) (dex_method_idx=9) 69632
+    DEX CODE:
+      0x0000: invoke-direct {v0, v1}, void hk.polyu.asynctask.MainActivity$MyAsyncTask.<init>(hk.polyu.asynctask.MainActivity) // method@8
+      0x0003: return-void
+    OatMethodOffsets (offset=0x0000153c)
+      code_offset: 0x000020d1 
+      gc_map: (offset=0x000015f0)
+    OatQuickMethodHeader (offset=0x000020b8)
+      mapping_table: (offset=0x00001671)
+      vmap_table: (offset=0x000016cb)
+      v0/r5, v1/r6, v65534/r7, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x000080e0 (r5, r6, r7, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x000020d1 size_offset=0x000020cc size=64)...
+      0x000020d0: f5bd5c00	subs    r12, sp, #8192
+      0x000020d4: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5), v1 (r6), v2 ([sp + #44])
+      0x000020d8: e92d40e0	push    {r5, r6, r7, lr}
+      0x000020dc: b084    	sub     sp, sp, #16
+      0x000020de: 1c07    	mov     r7, r0
+      0x000020e0: 9000    	str     r0, [sp, #0]
+      0x000020e2: 1c0d    	mov     r5, r1
+      0x000020e4: 1c16    	mov     r6, r2
+      0x000020e6: 930b    	str     r3, [sp, #44]
+      0x000020e8: 1c38    	mov     r0, r7
+      0x000020ea: 68c0    	ldr     r0, [r0, #12]
+      0x000020ec: 1c29    	mov     r1, r5
+      0x000020ee: 1c32    	mov     r2, r6
+      0x000020f0: 6ac0    	ldr     r0, [r0, #44]
+      0x000020f2: f8d0e028	ldr.w   lr, [r0, #40]
+      0x000020f6: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5), v1 (r6), v2 ([sp + #44])
+      0x000020f8: f3bf8f5a	dmb     ishst
+      0x000020fc: 3c01    	subs    r4, #1
+      0x000020fe: f0008003	beq.w   +6 (0x00002108)
+      0x00002102: b004    	add     sp, sp, #16
+      0x00002104: e8bd80e0	pop     {r5, r6, r7, pc}
+      0x00002108: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x0000210c: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x0000210e: e7f8    	b       -16 (0x00002102)
+  2: java.lang.Object hk.polyu.asynctask.MainActivity$MyAsyncTask.doInBackground(java.lang.Object[]) (dex_method_idx=10) 4164
+    DEX CODE:
+      0x0000: check-cast v2, java.lang.String[] // type@31
+      0x0002: invoke-virtual {v1, v2}, java.lang.String hk.polyu.asynctask.MainActivity$MyAsyncTask.doInBackground(java.lang.String[]) // method@11
+      0x0005: move-result-object v0
+      0x0006: return-object v0
+    OatMethodOffsets (offset=0x00001544)
+      code_offset: 0x00002129 
+      gc_map: (offset=0x000015fa)
+    OatQuickMethodHeader (offset=0x00002110)
+      mapping_table: (offset=0x00001679)
+      vmap_table: (offset=0x000016d0)
+      v2/r5, v65534/r6, v0/r7, v1/r8, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 48
+      core_spill_mask: 0x000081e0 (r5, r6, r7, r8, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002129 size_offset=0x00002124 size=108)...
+      0x00002128: f5bd5c00	subs    r12, sp, #8192
+      0x0000212c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v1 (r8), v2 (r5)
+      0x00002130: e92d41e0	push    {r5, r6, r7, r8, lr}
+      0x00002134: b087    	sub     sp, sp, #28
+      0x00002136: 1c06    	mov     r6, r0
+      0x00002138: 9000    	str     r0, [sp, #0]
+      0x0000213a: 4688    	mov     r8, r1
+      0x0000213c: 1c15    	mov     r5, r2
+      0x0000213e: 1c31    	mov     r1, r6
+      0x00002140: 690a    	ldr     r2, [r1, #16]
+      0x00002142: f8d22088	ldr.w   r2, [r2, #136]
+      0x00002146: b1aa    	cbz     r2, +42 (0x00002174)
+      0x00002148: 1c28    	mov     r0, r5
+      0x0000214a: b118    	cbz     r0, +6 (0x00002154)
+      0x0000214c: 6801    	ldr     r1, [r0, #0]
+      0x0000214e: 4291    	cmp     r1, r2
+      0x00002150: f0408016	bne.w   +44 (0x00002180)
+      0x00002154: 4641    	mov     r1, r8
+      0x00002156: 6808    	ldr     r0, [r1, #0]
+      0x00002158: 1c2a    	mov     r2, r5
+      0x0000215a: f8d001d4	ldr.w   r0, [r0, #468]
+      0x0000215e: f8d0e028	ldr.w   lr, [r0, #40]
+      0x00002162: 47f0    	blx     lr
+      suspend point dex PC: 0x0002
+      GC map objects:  v1 (r8), v2 (r5)
+      0x00002164: 1c07    	mov     r7, r0
+      0x00002166: 3c01    	subs    r4, #1
+      0x00002168: f000800f	beq.w   +30 (0x0000218a)
+      0x0000216c: 1c38    	mov     r0, r7
+      0x0000216e: b007    	add     sp, sp, #28
+      0x00002170: e8bd81e0	pop     {r5, r6, r7, r8, pc}
+      0x00002174: f8d9e14c	ldr.w   lr, [r9, #332]  ; pInitializeType
+      0x00002178: 201f    	movs    r0, #31
+      0x0000217a: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v1 (r8), v2 (r5)
+      0x0000217c: 1c02    	mov     r2, r0
+      0x0000217e: e7e3    	b       -58 (0x00002148)
+      0x00002180: f8d9e140	ldr.w   lr, [r9, #320]  ; pCheckCast
+      0x00002184: 1c10    	mov     r0, r2
+      0x00002186: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v1 (r8), v2 (r5)
+      0x00002188: e7e4    	b       -56 (0x00002154)
+      0x0000218a: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x0000218e: 47f0    	blx     lr
+      suspend point dex PC: 0x0006
+      GC map objects:  v0 (r7)
+      0x00002190: e7ec    	b       -40 (0x0000216c)
+      0x00002192: 0000    	lsls    r0, r0, #0
+  3: java.lang.String hk.polyu.asynctask.MainActivity$MyAsyncTask.doInBackground(java.lang.String[]) (dex_method_idx=11) 132
+    DEX CODE:
+      0x0000: const-string v0, "DroidBench" // string@11
+      0x0002: const/4 v1, #+0
+      0x0003: aget-object v1, v3, v1
+      0x0005: invoke-static {v0, v1}, int android.util.Log.d(java.lang.String, java.lang.String) // method@5
+      0x0008: const-string v0, "Done" // string@10
+      0x000a: return-object v0
+    OatMethodOffsets (offset=0x0000154c)
+      code_offset: 0x000021b1 
+      gc_map: (offset=0x00001608)
+    OatQuickMethodHeader (offset=0x00002198)
+      mapping_table: (offset=0x00001685)
+      vmap_table: (offset=0x000016d6)
+      v0/r5, v1/r6, v3/r7, v65534/r8, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 48
+      core_spill_mask: 0x000081e0 (r5, r6, r7, r8, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x000021b1 size_offset=0x000021ac size=128)...
+      0x000021b0: f5bd5c00	subs    r12, sp, #8192
+      0x000021b4: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v2 ([sp + #52]), v3 (r7)
+      0x000021b8: e92d41e0	push    {r5, r6, r7, r8, lr}
+      0x000021bc: b087    	sub     sp, sp, #28
+      0x000021be: 4680    	mov     r8, r0
+      0x000021c0: 9000    	str     r0, [sp, #0]
+      0x000021c2: 910d    	str     r1, [sp, #52]
+      0x000021c4: 1c17    	mov     r7, r2
+      0x000021c6: f8d80014	ldr.w   r0, [r8, #20]
+      0x000021ca: 6b80    	ldr     r0, [r0, #56]
+      0x000021cc: b1d8    	cbz     r0, +54 (0x00002206)
+      0x000021ce: 1c05    	mov     r5, r0
+      0x000021d0: 2600    	movs    r6, #0
+      0x000021d2: 68ba    	ldr     r2, [r7, #8]
+      suspend point dex PC: 0x0003
+      GC map objects:  v0 (r5), v2 ([sp + #52]), v3 (r7)
+      0x000021d4: b1ea    	cbz     r2, +58 (0x00002212)
+      0x000021d6: 68fe    	ldr     r6, [r7, #12]
+      suspend point dex PC: 0x0003
+      GC map objects:  v0 (r5), v2 ([sp + #52]), v3 (r7)
+      0x000021d8: f2462e01	movw    lr, #25089
+      0x000021dc: f2c72eb0	movt    lr, #29360
+      0x000021e0: f64e4000	movw    r0, #60416
+      0x000021e4: f2c70002	movt    r0, #28674
+      0x000021e8: 1c29    	mov     r1, r5
+      0x000021ea: 1c32    	mov     r2, r6
+      0x000021ec: 47f0    	blx     lr
+      suspend point dex PC: 0x0005
+      GC map objects:  v0 (r5), v1 (r6), v2 ([sp + #52]), v3 (r7)
+      0x000021ee: f8d80014	ldr.w   r0, [r8, #20]
+      0x000021f2: 6b40    	ldr     r0, [r0, #52]
+      0x000021f4: b190    	cbz     r0, +36 (0x0000221c)
+      0x000021f6: 1c05    	mov     r5, r0
+      0x000021f8: 3c01    	subs    r4, #1
+      0x000021fa: f0008015	beq.w   +42 (0x00002228)
+      0x000021fe: 1c28    	mov     r0, r5
+      0x00002200: b007    	add     sp, sp, #28
+      0x00002202: e8bd81e0	pop     {r5, r6, r7, r8, pc}
+      0x00002206: f8d9e150	ldr.w   lr, [r9, #336]  ; pResolveString
+      0x0000220a: 4640    	mov     r0, r8
+      0x0000220c: 210b    	movs    r1, #11
+      0x0000220e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v2 ([sp + #52]), v3 (r7)
+      0x00002210: e7dd    	b       -70 (0x000021ce)
+      0x00002212: 1c11    	mov     r1, r2
+      0x00002214: 2000    	movs    r0, #0
+      0x00002216: f8d9e238	ldr.w   lr, [r9, #568]  ; pThrowArrayBounds
+      0x0000221a: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      GC map objects:  v0 (r5), v2 ([sp + #52]), v3 (r7)
+      0x0000221c: f8d9e150	ldr.w   lr, [r9, #336]  ; pResolveString
+      0x00002220: 4640    	mov     r0, r8
+      0x00002222: 210a    	movs    r1, #10
+      0x00002224: 47f0    	blx     lr
+      suspend point dex PC: 0x0008
+      GC map objects:  v0 (r5), v1 (r6), v2 ([sp + #52]), v3 (r7)
+      0x00002226: e7e6    	b       -52 (0x000021f6)
+      0x00002228: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x0000222c: 47f0    	blx     lr
+      suspend point dex PC: 0x000a
+      GC map objects:  v0 (r5)
+      0x0000222e: e7e6    	b       -52 (0x000021fe)
+3: Lhk/polyu/asynctask/MainActivity; (offset=0x00001554) (type_idx=16) (StatusVerified) (OatClassAllCompiled)
+  0: void hk.polyu.asynctask.MainActivity.<init>() (dex_method_idx=13) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void android.app.Activity.<init>() // method@0
+      0x0003: return-void
+    OatMethodOffsets (offset=0x00001558)
+      code_offset: 0x00002249 
+      gc_map: (offset=0x000015dc)
+    OatQuickMethodHeader (offset=0x00002230)
+      mapping_table: (offset=0x00001661)
+      vmap_table: (offset=0x000016c7)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002249 size_offset=0x00002244 size=60)...
+      0x00002248: f5bd5c00	subs    r12, sp, #8192
+      0x0000224c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002250: e92d4060	push    {r5, r6, lr}
+      0x00002254: b085    	sub     sp, sp, #20
+      0x00002256: 1c06    	mov     r6, r0
+      0x00002258: 9000    	str     r0, [sp, #0]
+      0x0000225a: 1c0d    	mov     r5, r1
+      0x0000225c: f2461e01	movw    lr, #24833
+      0x00002260: f2c72ecf	movt    lr, #29391
+      0x00002264: f64f2018	movw    r0, #64024
+      0x00002268: f6c670e8	movt    r0, #28648
+      0x0000226c: 1c29    	mov     r1, r5
+      0x0000226e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002270: 3c01    	subs    r4, #1
+      0x00002272: f0008003	beq.w   +6 (0x0000227c)
+      0x00002276: b005    	add     sp, sp, #20
+      0x00002278: e8bd8060	pop     {r5, r6, pc}
+      0x0000227c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002280: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002282: e7f8    	b       -16 (0x00002276)
+  1: void hk.polyu.asynctask.MainActivity.onCreate(android.os.Bundle) (dex_method_idx=16) 4
+    DEX CODE:
+      0x0000: invoke-super {v5, v6}, void android.app.Activity.onCreate(android.os.Bundle) // method@1
+      0x0003: const/high16 v2, #int +2130903040 // 0x7f030000
+      0x0005: invoke-virtual {v5, v2}, void hk.polyu.asynctask.MainActivity.setContentView(int) // method@18
+      0x0008: invoke-virtual {v5}, android.content.Context hk.polyu.asynctask.MainActivity.getApplicationContext() // method@14
+      0x000b: move-result-object v2
+      0x000c: const-string v3, "phone" // string@89
+      0x000e: invoke-virtual {v2, v3}, java.lang.Object android.content.Context.getSystemService(java.lang.String) // method@2
+      0x0011: move-result-object v1
+      0x0012: check-cast v1, android.telephony.TelephonyManager // type@5
+      0x0014: new-instance v0, hk.polyu.asynctask.MainActivity$MyAsyncTask // type@15
+      0x0016: const/4 v2, #+0
+      0x0017: invoke-direct {v0, v5, v2}, void hk.polyu.asynctask.MainActivity$MyAsyncTask.<init>(hk.polyu.asynctask.MainActivity, hk.polyu.asynctask.MainActivity$1) // method@9
+      0x001a: const/4 v2, #+1
+      0x001b: new-array v2, v2, java.lang.String[] // type@31
+      0x001d: const/4 v3, #+0
+      0x001e: invoke-virtual {v1}, java.lang.String android.telephony.TelephonyManager.getDeviceId() // method@4
+      0x0021: move-result-object v4
+      0x0022: aput-object v4, v2, v3
+      0x0024: invoke-virtual {v0, v2}, android.os.AsyncTask hk.polyu.asynctask.MainActivity$MyAsyncTask.execute(java.lang.Object[]) // method@12
+      0x0027: return-void
+    OatMethodOffsets (offset=0x00001560)
+      code_offset: 0x000022a1 
+      gc_map: (offset=0x0000161c)
+    OatQuickMethodHeader (offset=0x00002288)
+      mapping_table: (offset=0x00001697)
+      vmap_table: (offset=0x000016dc)
+      v65534/r5, v2/r6, v5/r7, v0/r8, v1/r10, v3/r11, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 80
+      core_spill_mask: 0x00008de0 (r5, r6, r7, r8, r10, r11, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x000022a1 size_offset=0x0000229c size=312)...
+      0x000022a0: f5bd5c00	subs    r12, sp, #8192
+      0x000022a4: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v5 (r7), v6 ([sp + #88])
+      0x000022a8: e92d4de0	push    {r5, r6, r7, r8, r10, r11, lr}
+      0x000022ac: b08d    	sub     sp, sp, #52
+      0x000022ae: 1c05    	mov     r5, r0
+      0x000022b0: 9000    	str     r0, [sp, #0]
+      0x000022b2: 1c0f    	mov     r7, r1
+      0x000022b4: 9216    	str     r2, [sp, #88]
+      0x000022b6: f24a1e29	movw    lr, #41257
+      0x000022ba: f2c72ecf	movt    lr, #29391
+      0x000022be: f64930a8	movw    r0, #39848
+      0x000022c2: 9a16    	ldr     r2, [sp, #88]
+      0x000022c4: f6c670e9	movt    r0, #28649
+      0x000022c8: 1c39    	mov     r1, r7
+      0x000022ca: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v5 (r7), v6 ([sp + #88])
+      0x000022cc: f2400600	movw    r6, #0
+      0x000022d0: f6c77603	movt    r6, #32515
+      0x000022d4: 1c39    	mov     r1, r7
+      0x000022d6: 6808    	ldr     r0, [r1, #0]
+      0x000022d8: 1c32    	mov     r2, r6
+      0x000022da: f8d00660	ldr.w   r0, [r0, #1632]
+      0x000022de: f8d0e028	ldr.w   lr, [r0, #40]
+      0x000022e2: 47f0    	blx     lr
+      suspend point dex PC: 0x0005
+      GC map objects:  v5 (r7), v6 ([sp + #88])
+      0x000022e4: 1c39    	mov     r1, r7
+      0x000022e6: 6808    	ldr     r0, [r1, #0]
+      0x000022e8: f8d00204	ldr.w   r0, [r0, #516]
+      0x000022ec: f8d0e028	ldr.w   lr, [r0, #40]
+      0x000022f0: 47f0    	blx     lr
+      suspend point dex PC: 0x0008
+      GC map objects:  v5 (r7), v6 ([sp + #88])
+      0x000022f2: 1c06    	mov     r6, r0
+      0x000022f4: 6968    	ldr     r0, [r5, #20]
+      0x000022f6: f8d00170	ldr.w   r0, [r0, #368]
+      0x000022fa: 2800    	cmp     r0, #0
+      0x000022fc: d051    	beq     +162 (0x000023a2)
+      0x000022fe: 4683    	mov     r11, r0
+      0x00002300: 1c31    	mov     r1, r6
+      0x00002302: 465a    	mov     r2, r11
+      0x00002304: 6808    	ldr     r0, [r1, #0]
+      suspend point dex PC: 0x000e
+      GC map objects:  v2 (r6), v3 (r11), v5 (r7), v6 ([sp + #88])
+      0x00002306: f8d00288	ldr.w   r0, [r0, #648]
+      0x0000230a: f8d0e028	ldr.w   lr, [r0, #40]
+      0x0000230e: 47f0    	blx     lr
+      suspend point dex PC: 0x000e
+      GC map objects:  v2 (r6), v3 (r11), v5 (r7), v6 ([sp + #88])
+      0x00002310: 4682    	mov     r10, r0
+      0x00002312: 1c29    	mov     r1, r5
+      0x00002314: 690a    	ldr     r2, [r1, #16]
+      0x00002316: 6a12    	ldr     r2, [r2, #32]
+      0x00002318: 2a00    	cmp     r2, #0
+      0x0000231a: d048    	beq     +144 (0x000023ae)
+      0x0000231c: 4650    	mov     r0, r10
+      0x0000231e: b118    	cbz     r0, +6 (0x00002328)
+      0x00002320: 6801    	ldr     r1, [r0, #0]
+      0x00002322: 4291    	cmp     r1, r2
+      0x00002324: f0408049	bne.w   +146 (0x000023ba)
+      0x00002328: f8d9e124	ldr.w   lr, [r9, #292]  ; pAllocObject
+      0x0000232c: 1c29    	mov     r1, r5
+      0x0000232e: 200f    	movs    r0, #15
+      0x00002330: 47f0    	blx     lr
+      suspend point dex PC: 0x0014
+      GC map objects:  v1 (r10), v2 (r6), v3 (r11), v5 (r7), v6 ([sp + #88])
+      0x00002332: 4680    	mov     r8, r0
+      0x00002334: 2600    	movs    r6, #0
+      0x00002336: 1c28    	mov     r0, r5
+      0x00002338: 68c0    	ldr     r0, [r0, #12]
+      0x0000233a: 4641    	mov     r1, r8
+      0x0000233c: 1c3a    	mov     r2, r7
+      0x0000233e: 6b00    	ldr     r0, [r0, #48]
+      0x00002340: 1c33    	mov     r3, r6
+      0x00002342: f8d0e028	ldr.w   lr, [r0, #40]
+      0x00002346: 47f0    	blx     lr
+      suspend point dex PC: 0x0017
+      GC map objects:  v0 (r8), v1 (r10), v3 (r11), v5 (r7), v6 ([sp + #88])
+      0x00002348: f8d9e11c	ldr.w   lr, [r9, #284]  ; pAllocArrayResolved
+      0x0000234c: 2601    	movs    r6, #1
+      0x0000234e: 1c32    	mov     r2, r6
+      0x00002350: 1c29    	mov     r1, r5
+      0x00002352: f64c5050	movw    r0, #52560
+      0x00002356: f6c6708c	movt    r0, #28556
+      0x0000235a: 47f0    	blx     lr
+      suspend point dex PC: 0x001b
+      GC map objects:  v0 (r8), v1 (r10), v3 (r11), v5 (r7), v6 ([sp + #88])
+      0x0000235c: 1c06    	mov     r6, r0
+      0x0000235e: f04f0b00	mov.w   r11, #0
+      0x00002362: 4651    	mov     r1, r10
+      0x00002364: 6808    	ldr     r0, [r1, #0]
+      suspend point dex PC: 0x001e
+      GC map objects:  v0 (r8), v1 (r10), v2 (r6), v5 (r7), v6 ([sp + #88])
+      0x00002366: f8d00234	ldr.w   r0, [r0, #564]
+      0x0000236a: f8d0e028	ldr.w   lr, [r0, #40]
+      0x0000236e: 47f0    	blx     lr
+      suspend point dex PC: 0x001e
+      GC map objects:  v0 (r8), v1 (r10), v2 (r6), v5 (r7), v6 ([sp + #88])
+      0x00002370: 68b2    	ldr     r2, [r6, #8]
+      0x00002372: 900b    	str     r0, [sp, #44]
+      0x00002374: b332    	cbz     r2, +76 (0x000023c4)
+      0x00002376: 60f0    	str     r0, [r6, #12]
+      0x00002378: b128    	cbz     r0, +10 (0x00002386)
+      0x0000237a: f8d93078	ldr.w   r3, [r9, #120]  ; card_table
+      0x0000237e: ea4f1cd6	mov.w   r12, r6, lsr #7
+      0x00002382: f803300c	strb    r3, [r3, r12]
+      0x00002386: 1c28    	mov     r0, r5
+      0x00002388: 68c0    	ldr     r0, [r0, #12]
+      0x0000238a: 4641    	mov     r1, r8
+      0x0000238c: 1c32    	mov     r2, r6
+      0x0000238e: 6bc0    	ldr     r0, [r0, #60]
+      0x00002390: f8d0e028	ldr.w   lr, [r0, #40]
+      0x00002394: 47f0    	blx     lr
+      suspend point dex PC: 0x0024
+      GC map objects:  v0 (r8), v1 (r10), v2 (r6), v4 ([sp + #44]), v5 (r7), v6 ([sp + #88])
+      0x00002396: 3c01    	subs    r4, #1
+      0x00002398: f0008019	beq.w   +50 (0x000023ce)
+      0x0000239c: b00d    	add     sp, sp, #52
+      0x0000239e: e8bd8de0	pop     {r5, r6, r7, r8, r10, r11, pc}
+      0x000023a2: f8d9e150	ldr.w   lr, [r9, #336]  ; pResolveString
+      0x000023a6: 1c28    	mov     r0, r5
+      0x000023a8: 2159    	movs    r1, #89
+      0x000023aa: 47f0    	blx     lr
+      suspend point dex PC: 0x000c
+      GC map objects:  v2 (r6), v5 (r7), v6 ([sp + #88])
+      0x000023ac: e7a7    	b       -178 (0x000022fe)
+      0x000023ae: f8d9e14c	ldr.w   lr, [r9, #332]  ; pInitializeType
+      0x000023b2: 2005    	movs    r0, #5
+      0x000023b4: 47f0    	blx     lr
+      suspend point dex PC: 0x0012
+      GC map objects:  v1 (r10), v2 (r6), v3 (r11), v5 (r7), v6 ([sp + #88])
+      0x000023b6: 1c02    	mov     r2, r0
+      0x000023b8: e7b0    	b       -160 (0x0000231c)
+      0x000023ba: f8d9e140	ldr.w   lr, [r9, #320]  ; pCheckCast
+      0x000023be: 1c10    	mov     r0, r2
+      0x000023c0: 47f0    	blx     lr
+      suspend point dex PC: 0x0012
+      GC map objects:  v1 (r10), v2 (r6), v3 (r11), v5 (r7), v6 ([sp + #88])
+      0x000023c2: e7b1    	b       -158 (0x00002328)
+      0x000023c4: 1c11    	mov     r1, r2
+      0x000023c6: 2000    	movs    r0, #0
+      0x000023c8: f8d9e238	ldr.w   lr, [r9, #568]  ; pThrowArrayBounds
+      0x000023cc: 47f0    	blx     lr
+      suspend point dex PC: 0x0022
+      GC map objects:  v0 (r8), v1 (r10), v2 (r6), v4 ([sp + #44]), v5 (r7), v6 ([sp + #88])
+      0x000023ce: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x000023d2: 47f0    	blx     lr
+      suspend point dex PC: 0x0027
+      0x000023d4: e7e2    	b       -60 (0x0000239c)
+      0x000023d6: 0000    	lsls    r0, r0, #0
+  2: boolean hk.polyu.asynctask.MainActivity.onCreateOptionsMenu(android.view.Menu) (dex_method_idx=17) 1
+    DEX CODE:
+      0x0000: invoke-virtual {v2}, android.view.MenuInflater hk.polyu.asynctask.MainActivity.getMenuInflater() // method@15
+      0x0003: move-result-object v0
+      0x0004: const/high16 v1, #int +2131165184 // 0x7f070000
+      0x0006: invoke-virtual {v0, v1, v3}, void android.view.MenuInflater.inflate(int, android.view.Menu) // method@6
+      0x0009: const/4 v0, #+1
+      0x000a: return v0
+    OatMethodOffsets (offset=0x00001568)
+      code_offset: 0x000023f1 
+      gc_map: (offset=0x00001653)
+    OatQuickMethodHeader (offset=0x000023d8)
+      mapping_table: (offset=0x000016bb)
+      vmap_table: (offset=0x000016e4)
+      v65534/r5, v0/r6, v1/r7, v2/r8, v3/r10, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 64
+      core_spill_mask: 0x000085e0 (r5, r6, r7, r8, r10, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x000023f1 size_offset=0x000023ec size=88)...
+      0x000023f0: f5bd5c00	subs    r12, sp, #8192
+      0x000023f4: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v2 (r8), v3 (r10)
+      0x000023f8: e92d45e0	push    {r5, r6, r7, r8, r10, lr}
+      0x000023fc: b08a    	sub     sp, sp, #40
+      0x000023fe: 1c05    	mov     r5, r0
+      0x00002400: 9000    	str     r0, [sp, #0]
+      0x00002402: 4688    	mov     r8, r1
+      0x00002404: 4692    	mov     r10, r2
+      0x00002406: 4641    	mov     r1, r8
+      0x00002408: 6808    	ldr     r0, [r1, #0]
+      0x0000240a: f8d0043c	ldr.w   r0, [r0, #1084]
+      0x0000240e: f8d0e028	ldr.w   lr, [r0, #40]
+      0x00002412: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v2 (r8), v3 (r10)
+      0x00002414: 1c06    	mov     r6, r0
+      0x00002416: f2400700	movw    r7, #0
+      0x0000241a: f6c77707	movt    r7, #32519
+      0x0000241e: 1c31    	mov     r1, r6
+      0x00002420: 1c3a    	mov     r2, r7
+      0x00002422: 6808    	ldr     r0, [r1, #0]
+      suspend point dex PC: 0x0006
+      GC map objects:  v0 (r6), v2 (r8), v3 (r10)
+      0x00002424: f8d001a0	ldr.w   r0, [r0, #416]
+      0x00002428: 4653    	mov     r3, r10
+      0x0000242a: f8d0e028	ldr.w   lr, [r0, #40]
+      0x0000242e: 47f0    	blx     lr
+      suspend point dex PC: 0x0006
+      GC map objects:  v0 (r6), v2 (r8), v3 (r10)
+      0x00002430: 2601    	movs    r6, #1
+      0x00002432: 3c01    	subs    r4, #1
+      0x00002434: f0008004	beq.w   +8 (0x00002440)
+      0x00002438: 1c30    	mov     r0, r6
+      0x0000243a: b00a    	add     sp, sp, #40
+      0x0000243c: e8bd85e0	pop     {r5, r6, r7, r8, r10, pc}
+      0x00002440: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002444: 47f0    	blx     lr
+      suspend point dex PC: 0x000a
+      0x00002446: e7f7    	b       -18 (0x00002438)
+4: Lhk/polyu/asynctask/R$attr; (offset=0x00001570) (type_idx=17) (StatusInitialized) (OatClassAllCompiled)
+  0: void hk.polyu.asynctask.R$attr.<init>() (dex_method_idx=19) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@28
+      0x0003: return-void
+    OatMethodOffsets (offset=0x00001574)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x000015dc)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x00001661)
+      vmap_table: (offset=0x000016c7)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)
+5: Lhk/polyu/asynctask/R$color; (offset=0x0000157c) (type_idx=18) (StatusVerified) (OatClassAllCompiled)
+  0: void hk.polyu.asynctask.R$color.<init>() (dex_method_idx=20) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@28
+      0x0003: return-void
+    OatMethodOffsets (offset=0x00001580)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x000015dc)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x00001661)
+      vmap_table: (offset=0x000016c7)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)
+6: Lhk/polyu/asynctask/R$id; (offset=0x00001588) (type_idx=19) (StatusVerified) (OatClassAllCompiled)
+  0: void hk.polyu.asynctask.R$id.<init>() (dex_method_idx=21) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@28
+      0x0003: return-void
+    OatMethodOffsets (offset=0x0000158c)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x000015dc)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x00001661)
+      vmap_table: (offset=0x000016c7)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)
+7: Lhk/polyu/asynctask/R$layout; (offset=0x00001594) (type_idx=20) (StatusVerified) (OatClassAllCompiled)
+  0: void hk.polyu.asynctask.R$layout.<init>() (dex_method_idx=22) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@28
+      0x0003: return-void
+    OatMethodOffsets (offset=0x00001598)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x000015dc)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x00001661)
+      vmap_table: (offset=0x000016c7)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)
+8: Lhk/polyu/asynctask/R$menu; (offset=0x000015a0) (type_idx=21) (StatusVerified) (OatClassAllCompiled)
+  0: void hk.polyu.asynctask.R$menu.<init>() (dex_method_idx=23) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@28
+      0x0003: return-void
+    OatMethodOffsets (offset=0x000015a4)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x000015dc)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x00001661)
+      vmap_table: (offset=0x000016c7)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)
+9: Lhk/polyu/asynctask/R$mipmap; (offset=0x000015ac) (type_idx=22) (StatusVerified) (OatClassAllCompiled)
+  0: void hk.polyu.asynctask.R$mipmap.<init>() (dex_method_idx=24) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@28
+      0x0003: return-void
+    OatMethodOffsets (offset=0x000015b0)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x000015dc)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x00001661)
+      vmap_table: (offset=0x000016c7)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)
+10: Lhk/polyu/asynctask/R$string; (offset=0x000015b8) (type_idx=23) (StatusVerified) (OatClassAllCompiled)
+  0: void hk.polyu.asynctask.R$string.<init>() (dex_method_idx=25) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@28
+      0x0003: return-void
+    OatMethodOffsets (offset=0x000015bc)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x000015dc)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x00001661)
+      vmap_table: (offset=0x000016c7)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)
+11: Lhk/polyu/asynctask/R$style; (offset=0x000015c4) (type_idx=24) (StatusVerified) (OatClassAllCompiled)
+  0: void hk.polyu.asynctask.R$style.<init>() (dex_method_idx=26) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@28
+      0x0003: return-void
+    OatMethodOffsets (offset=0x000015c8)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x000015dc)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x00001661)
+      vmap_table: (offset=0x000016c7)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)
+12: Lhk/polyu/asynctask/R; (offset=0x000015d0) (type_idx=25) (StatusInitialized) (OatClassAllCompiled)
+  0: void hk.polyu.asynctask.R.<init>() (dex_method_idx=27) 65537
+    DEX CODE:
+      0x0000: invoke-direct {v0}, void java.lang.Object.<init>() // method@28
+      0x0003: return-void
+    OatMethodOffsets (offset=0x000015d4)
+      code_offset: 0x00002019 
+      gc_map: (offset=0x000015dc)
+    OatQuickMethodHeader (offset=0x00002000)
+      mapping_table: (offset=0x00001661)
+      vmap_table: (offset=0x000016c7)
+      v0/r5, v65534/r6, v65535/r15
+    QuickMethodFrameInfo
+      frame_size_in_bytes: 32
+      core_spill_mask: 0x00008060 (r5, r6, r15)
+      fp_spill_mask: 0x00000000 
+    CODE: (code_offset=0x00002019 size_offset=0x00002014 size=60)...
+      0x00002018: f5bd5c00	subs    r12, sp, #8192
+      0x0000201c: f8dcc000	ldr.w   r12, [r12, #0]
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002020: e92d4060	push    {r5, r6, lr}
+      0x00002024: b085    	sub     sp, sp, #20
+      0x00002026: 1c06    	mov     r6, r0
+      0x00002028: 9000    	str     r0, [sp, #0]
+      0x0000202a: 1c0d    	mov     r5, r1
+      0x0000202c: f24b0e71	movw    lr, #45169
+      0x00002030: f2c71ee7	movt    lr, #29159
+      0x00002034: f24d3060	movw    r0, #54112
+      0x00002038: f6c6708c	movt    r0, #28556
+      0x0000203c: 1c29    	mov     r1, r5
+      0x0000203e: 47f0    	blx     lr
+      suspend point dex PC: 0x0000
+      GC map objects:  v0 (r5)
+      0x00002040: 3c01    	subs    r4, #1
+      0x00002042: f0008003	beq.w   +6 (0x0000204c)
+      0x00002046: b005    	add     sp, sp, #20
+      0x00002048: e8bd8060	pop     {r5, r6, pc}
+      0x0000204c: f8d9e230	ldr.w   lr, [r9, #560]  ; pTestSuspend
+      0x00002050: 47f0    	blx     lr
+      suspend point dex PC: 0x0003
+      0x00002052: e7f8    	b       -16 (0x00002046)

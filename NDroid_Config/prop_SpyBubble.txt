@@ -1,0 +1,9 @@
+java.lang.StringBuilder java.lang.StringBuilder.append(java.lang.String)@Ljava/lang/StringBuilder@0@9@1@9
+java.lang.String java.lang.StringBuilder.toString()@Ljava/lang/StringBuilder@0@9@0
+java.lang.String java.lang.String.toString()@Ljava/lang/String@0@9@0
+boolean java.util.Collections$SynchronizedCollection.add(java.lang.Object)@Ljava/util/Collections$SynchronizedCollection@0@1@1@9
+java.lang.Object java.util.ArrayList$ArrayListIterator.next()@Ljava/util/ArrayList$ArrayListIterator@0@9@0
+java.util.Iterator java.util.Collections$SynchronizedCollection.iterator()@Ljava/util/Collections$SynchronizedCollection@0@9@0
+byte[] java.lang.String.getBytes(java.lang.String)@Ljava/lang/String@0@9@1@9
+java.lang.StringBuilder java.lang.StringBuilder.append(long)@Ljava/lang/StringBuilder@0@9@1@2
+int java.lang.String.hashCode()@Ljava/lang/String@0@1@0

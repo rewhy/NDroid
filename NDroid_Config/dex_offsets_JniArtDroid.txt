@@ -1,0 +1,14 @@
+8216@void hk.edu.polyu.jniartdroid.BuildConfig.<init>()@Lhk/edu/polyu/jniartdroid/BuildConfig@0@0@0
+8216@void hk.edu.polyu.jniartdroid.R$attr.<init>()@Lhk/edu/polyu/jniartdroid/R$attr@0@0@0
+8216@void hk.edu.polyu.jniartdroid.R$color.<init>()@Lhk/edu/polyu/jniartdroid/R$color@0@0@0
+8216@void hk.edu.polyu.jniartdroid.R$dimen.<init>()@Lhk/edu/polyu/jniartdroid/R$dimen@0@0@0
+8216@void hk.edu.polyu.jniartdroid.R$id.<init>()@Lhk/edu/polyu/jniartdroid/R$id@0@0@0
+8216@void hk.edu.polyu.jniartdroid.R$layout.<init>()@Lhk/edu/polyu/jniartdroid/R$layout@0@0@0
+8216@void hk.edu.polyu.jniartdroid.R$mipmap.<init>()@Lhk/edu/polyu/jniartdroid/R$mipmap@0@0@0
+8216@void hk.edu.polyu.jniartdroid.R$string.<init>()@Lhk/edu/polyu/jniartdroid/R$string@0@0@0
+8216@void hk.edu.polyu.jniartdroid.R$style.<init>()@Lhk/edu/polyu/jniartdroid/R$style@0@0@0
+8216@void hk.edu.polyu.jniartdroid.R.<init>()@Lhk/edu/polyu/jniartdroid/R@0@0@0
+8304@void hk.edu.polyu.jniartdroid.MainActivity.<init>()@Lhk/edu/polyu/jniartdroid/MainActivity@0@0@0
+0@void hk.edu.polyu.jniartdroid.MainActivity.<clinit>()@Lhk/edu/polyu/jniartdroid/MainActivity@1@0@0
+8560@void hk.edu.polyu.jniartdroid.MainActivity.onCreate(android.os.Bundle)@Lhk/edu/polyu/jniartdroid/MainActivity@0@0@1@9
+8392@java.lang.String hk.edu.polyu.jniartdroid.MainActivity.convertDeviceId(java.lang.String)@Lhk/edu/polyu/jniartdroid/MainActivity@0@9@1@9
