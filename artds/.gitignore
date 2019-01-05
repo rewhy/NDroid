@@ -1,0 +1,8 @@
+objs/
+!objs/kernelinfo.conf
+!objs/boot_offsets.txt
+tags
+artds.vpj
+artds.vpw
+artds.vtg
+artds.vpwhistu
