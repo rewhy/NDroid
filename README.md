@@ -1,4 +1,5 @@
-# NDroid
+## Tracking Information Flows across Multiple Android Contexts
+
 
 NDroid_Config: 1. contains the configuration files that are used by the NDroid; 2. contains the samples and results that are related to the research paper.
                
